@@ -136,6 +136,17 @@ Polo FM, Maity S, Yurochkin M, Banerjee M, Sun Y.
 \newblock In: Advances in Neural Information Processing Systems. vol.~37; 2024.
   .
 
+\bibitem[\protect\citeauthoryear{Dervovic and
+  Cashmore}{2025}]{dervovic2025model}
+Dervovic D, Cashmore M.
+\newblock Model Evaluation in the Dark: Robust Classifier Metrics with Missing
+  Labels.
+\newblock In: Proceedings of the 28th International Conference on Artificial
+  Intelligence and Statistics. vol. 258 of Proceedings of Machine Learning
+  Research. PMLR; 2025. p. 1909--1917.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v258/dervovic25a.html}.
+
 \bibitem[\protect\citeauthoryear{Katariya
   et~al.}{2012}]{katariya2012activeevaluation}
 Katariya N, Iyer A, Sarawagi S.
@@ -220,6 +231,14 @@ Han W, Qu L.
 \newblock arXiv. 2026;abs/2607.18088.
 \newblock \doi{10.48550/arXiv.2607.18088}.
 
+\bibitem[\protect\citeauthoryear{Ulichney and
+  Coston}{2026}]{ulichney2026beyond}
+Ulichney A, Coston A.
+\newblock Beyond the Training Distribution: Evaluating Predictions Under
+  Distribution Shift and Selection Bias.
+\newblock arXiv. 2026;abs/2606.14506.
+\newblock \doi{10.48550/arXiv.2606.14506}.
+
 \bibitem[\protect\citeauthoryear{Madani et~al.}{2004}]{madani2004covalidation}
 Madani O, Pennock DM, Flake GW.
 \newblock Co-Validation: Using Model Disagreement on Unlabeled Data to Validate
@@ -277,8 +296,11 @@ Bellante A, Fioravanti T, Carminati M, Zanero S, Luongo A.
 \bibitem[\protect\citeauthoryear{Bazinet et~al.}{2026}]{bazinet2026bound}
 Bazinet M, Zantedeschi V, Germain P.
 \newblock Bound to Disagree: Generalization Bounds via Certifiable Surrogates.
-\newblock arXiv. 2026;abs/2602.23128.
-\newblock \doi{10.48550/arXiv.2602.23128}.
+\newblock In: Proceedings of the 42nd Conference on Uncertainty in Artificial
+  Intelligence. vol. 337 of Proceedings of Machine Learning Research. PMLR;
+  2026. p. 491--520.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v337/bazinet26a.html}.
 
 \bibitem[\protect\citeauthoryear{Qui{\~n}onero-Candela
   et~al.}{2008}]{quinonero-candela2008datasetshift}
@@ -311,6 +333,14 @@ K{\"u}bler JM, Buchholz S, Sch{\"o}lkopf B.
 Thanasilp S, Wang S, Cerezo M, Holmes Z.
 \newblock Exponential Concentration in Quantum Kernel Methods.
 \newblock Nature Communications. 2024;15:5200.
+\newblock \doi{10.1038/s41467-024-49287-w}.
+
+\bibitem[\protect\citeauthoryear{Islam}{2026}]{islam2026benchmarking}
+Islam MR.
+\newblock Benchmarking Quantum Machine Learning for Power-System Attack
+  Detection: Evaluation Choices Decide the Outcome Before the Models Do.
+\newblock arXiv. 2026;abs/2608.15617.
+\newblock \doi{10.48550/arXiv.2608.15617}.
 
 \bibitem[\protect\citeauthoryear{Wang et~al.}{2021}]{wang2021nisq}
 Wang X, Du Y, Luo Y, Tao D.

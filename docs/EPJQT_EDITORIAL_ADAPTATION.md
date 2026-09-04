@@ -58,6 +58,14 @@ paths keep their original identifiers.
    with explicit human verification and no AI authorship.
 6. CI gates `validate_manuscript_v8.py` and `validate_manuscript_v11.py`
    updated to the EPJ QT format and to the renamed Results subsection.
+7. Bibliography closed against the September 2026 literature (same day,
+   after an adversarial bibliographic audit found no novelty blocker): three
+   references added with one sentence each, worded from the primary
+   abstracts (Dervovic and Cashmore, AISTATS 2025, PMLR 258:1909--1917;
+   Islam, arXiv:2608.15617; Ulichney and Coston, arXiv:2606.14506), and two
+   metadata updates (Bazinet et al. to its UAI 2026 version of record, PMLR
+   337:491--520; DOI added to Thanasilp et al., Nature Communications 2024).
+   No numeric token, table, theorem, equation, or figure changed.
 
 The cover letter and the private submission notes are intentionally kept out
 of the repository, following the existing ignore rules. No release tag and no
