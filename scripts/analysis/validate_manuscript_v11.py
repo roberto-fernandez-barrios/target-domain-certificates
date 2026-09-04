@@ -22,7 +22,7 @@ from scripts.analysis.validate_manuscript_v10 import (
 SPEC = Path("docs/V11_CONSOLIDATION_SPEC.md")
 SPEC_SHA256 = "9e54f8a2905992913213df43884bcf0d63ca35684e235ed7aaf1b2400d41b5e3"
 BIBLIOGRAPHY = Path("manuscript/sn-bibliography.bib")
-COVER = Path("manuscript/cover_letter_npjqi.md")
+COVER = Path("manuscript/cover_letter_epjqt.md")
 FRONTIER = Path(
     "results/v9/partial_identification/analysis/frontier_summary.csv"
 )
@@ -54,7 +54,7 @@ PRESERVATION_FRAGMENTS = (
     r"\label{fig:v8_sensitivities}",
     r"\label{fig:external}",
     r"\label{fig:v9_shots}",
-    "Within-v4 sensitivities separate the evaluation bundle",
+    "Evaluation choices interact within the controlled protocol",
     "Geometry is associated with robustness only partially",
     "The quantum pool mixes entangling and product kernels",
     "Protocol sensitivity is prospectively corroborated on external domain shifts",
@@ -153,7 +153,7 @@ def validate_v11() -> None:
         )
         cover_plain = cover.replace("**", "")
         if expected_title not in cover_plain:
-            raise ValueError("npj cover letter does not use the v1.1 manuscript title")
+            raise ValueError("cover letter does not use the v1.1 manuscript title")
         for fragment in (
             "bounded loss",
             "sharp and minimal interval",

@@ -98,7 +98,7 @@ def make_certificate_figure(analysis_root: Path, output: Path) -> None:
     )
     cases = list(CASE_LABELS)
     x = np.arange(len(cases), dtype=float)
-    fig, axes = plt.subplots(1, 2, figsize=(11.2, 3.8), constrained_layout=True)
+    fig, axes = plt.subplots(1, 2, figsize=(11.2, 4.1), constrained_layout=True)
 
     ax = axes[0]
     for model, offset in (("svc", -0.14), ("gpc", 0.14)):
@@ -117,6 +117,12 @@ def make_certificate_figure(analysis_root: Path, output: Path) -> None:
     ax.axhline(0.01, color="#555555", linestyle="--", linewidth=1.0)
     ax.text(7.42, 0.0115, "1-point threshold", ha="right", va="bottom", color="#555555")
     ax.set_xticks(x, [CASE_LABELS[case] for case in cases])
+    plt.setp(
+        ax.get_xticklabels(),
+        rotation=30,
+        ha="right",
+        rotation_mode="anchor",
+    )
     ax.set_ylabel("Sharp upper endpoint at zero labels")
     ax.set_ylim(-0.003, 0.098)
     ax.grid(axis="y", color="#DDDDDD", linewidth=0.6)
@@ -193,6 +199,12 @@ def make_certificate_figure(analysis_root: Path, output: Path) -> None:
                 zorder=4,
             )
     ax.set_xticks(x, [CASE_LABELS[case] for case in cases])
+    plt.setp(
+        ax.get_xticklabels(),
+        rotation=30,
+        ha="right",
+        rotation_mode="anchor",
+    )
     ax.set_ylabel("Labels needed for upper endpoint $\\leq 0.01$")
     ax.set_yscale("symlog", linthresh=10, linscale=0.9, base=10)
     ax.set_yticks([0, 5, 10, 20, 50, 100, 200, 500])

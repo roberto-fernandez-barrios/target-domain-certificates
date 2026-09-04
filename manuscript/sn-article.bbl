@@ -1,536 +1,490 @@
 \begin{thebibliography}{10}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\burl{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
 \bibcommenthead
 
-\bibitem{havlicek2019quantumenhanced}
-\bibinfo{author}{Havl{\'\i}{\v{c}}ek, V.} \emph{et~al.}
-\newblock \bibinfo{title}{Supervised learning with quantum-enhanced feature
-  spaces}.
-\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{567}},
-  \bibinfo{pages}{209--212} (\bibinfo{year}{2019}).
+\bibitem[\protect\citeauthoryear{Havl{\'\i}{\v{c}}ek
+  et~al.}{2019}]{havlicek2019quantumenhanced}
+Havl{\'\i}{\v{c}}ek V, C{\'o}rcoles AD, Temme K, Harrow AW, Kandala A, Chow JM,
+  et~al.
+\newblock Supervised Learning with Quantum-Enhanced Feature Spaces.
+\newblock Nature. 2019;567:209--212.
+\newblock \doi{10.1038/s41586-019-0980-2}.
 
-\bibitem{schuld2019featurehilbert}
-\bibinfo{author}{Schuld, M.} \& \bibinfo{author}{Killoran, N.}
-\newblock \bibinfo{title}{Quantum machine learning in feature hilbert spaces}.
-\newblock \emph{\bibinfo{journal}{Physical Review Letters}}
-  \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{040504}
-  (\bibinfo{year}{2019}).
+\bibitem[\protect\citeauthoryear{Schuld and
+  Killoran}{2019}]{schuld2019featurehilbert}
+Schuld M, Killoran N.
+\newblock Quantum Machine Learning in Feature Hilbert Spaces.
+\newblock Physical Review Letters. 2019;122(4):040504.
+\newblock \doi{10.1103/PhysRevLett.122.040504}.
 
-\bibitem{schuld2021kernelmethods}
-\bibinfo{author}{Schuld, M.}
-\newblock \bibinfo{title}{Supervised quantum machine learning models are kernel
-  methods}.
-\newblock \emph{\bibinfo{journal}{arXiv}}
-  \textbf{\bibinfo{volume}{abs/2101.11020}} (\bibinfo{year}{2021}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2101.11020}.
+\bibitem[\protect\citeauthoryear{Schuld}{2021}]{schuld2021kernelmethods}
+Schuld M.
+\newblock Supervised Quantum Machine Learning Models Are Kernel Methods.
+\newblock arXiv. 2021;abs/2101.11020.
+\newblock \doi{10.48550/arXiv.2101.11020}.
 
-\bibitem{bowles2024betterthanclassical}
-\bibinfo{author}{Bowles, J.}, \bibinfo{author}{Ahmed, S.} \&
-  \bibinfo{author}{Schuld, M.}
-\newblock \bibinfo{title}{Better than classical? the subtle art of benchmarking
-  quantum machine learning models}.
-\newblock \emph{\bibinfo{journal}{arXiv}}
-  \textbf{\bibinfo{volume}{abs/2403.07059}} (\bibinfo{year}{2024}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2403.07059}.
+\bibitem[\protect\citeauthoryear{Bowles
+  et~al.}{2024}]{bowles2024betterthanclassical}
+Bowles J, Ahmed S, Schuld M.
+\newblock Better than Classical? The Subtle Art of Benchmarking Quantum Machine
+  Learning Models.
+\newblock arXiv. 2024;abs/2403.07059.
+\newblock \doi{10.48550/arXiv.2403.07059}.
 
-\bibitem{slattery2023numerical}
-\bibinfo{author}{Slattery, L.} \emph{et~al.}
-\newblock \bibinfo{title}{Numerical evidence against advantage with quantum
-  fidelity kernels on classical data}.
-\newblock \emph{\bibinfo{journal}{Physical Review A}}
-  \textbf{\bibinfo{volume}{107}}, \bibinfo{pages}{062417}
-  (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Slattery et~al.}{2023}]{slattery2023numerical}
+Slattery L, Shaydulin R, Chakrabarti S, Pistoia M, Khairy S, Wild SM.
+\newblock Numerical Evidence against Advantage with Quantum Fidelity Kernels on
+  Classical Data.
+\newblock Physical Review A. 2023;107(6):062417.
+\newblock \doi{10.1103/PhysRevA.107.062417}.
 
-\bibitem{schnabel2025scrutiny}
-\bibinfo{author}{Schnabel, J.} \& \bibinfo{author}{Roth, M.}
-\newblock \bibinfo{title}{Quantum kernel methods under scrutiny: A benchmarking
-  study}.
-\newblock \emph{\bibinfo{journal}{Quantum Machine Intelligence}}
-  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{58} (\bibinfo{year}{2025}).
+\bibitem[\protect\citeauthoryear{Schnabel and
+  Roth}{2025}]{schnabel2025scrutiny}
+Schnabel J, Roth M.
+\newblock Quantum Kernel Methods under Scrutiny: A Benchmarking Study.
+\newblock Quantum Machine Intelligence. 2025;7:58.
+\newblock \doi{10.1007/s42484-025-00273-5}.
 
-\bibitem{shen2026vanishing}
-\bibinfo{author}{Shen, J.}
-\newblock \bibinfo{title}{Quantum kernels and the cross-section of stock
-  returns: Anatomy of a vanishing advantage} (\bibinfo{year}{2026}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2607.20168}.
-\newblock \bibinfo{note}{Preprint},
-  \bibinfo{eprint}{{\href{https://arxiv.org/abs/2607.20168}{{arXiv:2607.20168}}}}.
+\bibitem[\protect\citeauthoryear{Gillani et~al.}{2026}]{gillani2026howquantum}
+Gillani SA, Baig MSA, Shah SM, Ali A, Siddiqui H.
+\newblock How Quantum Is the Advantage? A Fair, Calibration- and Noise-Aware
+  Benchmark and Attribution Audit of Quantum Machine Learning for Network
+  Intrusion Detection.
+\newblock arXiv. 2026;abs/2608.18155.
+\newblock \doi{10.48550/arXiv.2608.18155}.
 
-\bibitem{gulrajani2021domainbed}
-\bibinfo{author}{Gulrajani, I.} \& \bibinfo{author}{Lopez-Paz, D.}
-  \emph{\bibinfo{title}{In search of lost domain generalization}}.
-\newblock \emph{\bibinfo{booktitle}{International Conference on Learning
-  Representations}} (\bibinfo{organization}{International Conference on
-  Learning Representations}, \bibinfo{year}{2021}).
-\newblock \urlprefix\url{https://openreview.net/forum?id=lQdXeXDoWtI}.
+\bibitem[\protect\citeauthoryear{Shen}{2026}]{shen2026vanishing}
+Shen J.
+\newblock Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a
+  Vanishing Advantage.
+\newblock arXiv. 2026;abs/2607.20168.
+\newblock \doi{10.48550/arXiv.2607.20168}.
 
-\bibitem{koh2021wilds}
-\bibinfo{author}{Koh, P.~W.} \emph{et~al.} \emph{\bibinfo{title}{Wilds: A
-  benchmark of in-the-wild distribution shifts}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of the 38th International
-  Conference on Machine Learning}}, Vol. \bibinfo{volume}{139} of
-  \emph{\bibinfo{series}{Proceedings of Machine Learning Research}},
-  \bibinfo{pages}{5637--5664}. \bibinfo{organization}{International Conference
-  on Machine Learning} (\bibinfo{publisher}{PMLR}, \bibinfo{address}{Cambridge,
-  MA, USA}, \bibinfo{year}{2021}).
-\newblock \urlprefix\url{https://proceedings.mlr.press/v139/koh21a.html}.
+\bibitem[\protect\citeauthoryear{Gulrajani and
+  Lopez-Paz}{2021}]{gulrajani2021domainbed}
+Gulrajani I, Lopez-Paz D.
+\newblock In Search of Lost Domain Generalization.
+\newblock In: International Conference on Learning Representations.
+  International Conference on Learning Representations; 2021. Available from:
+  \url{https://openreview.net/forum?id=lQdXeXDoWtI}.
 
-\bibitem{yao2022wildtime}
-\bibinfo{author}{Yao, H.} \emph{et~al.} \emph{\bibinfo{title}{Wild-time: A
-  benchmark of in-the-wild distribution shift over time}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}} (\bibinfo{organization}{Neural Information Processing Systems
-  Foundation}, \bibinfo{year}{2022}).
-\newblock \bibinfo{note}{Datasets and Benchmarks Track}.
+\bibitem[\protect\citeauthoryear{Koh et~al.}{2021}]{koh2021wilds}
+Koh PW, Sagawa S, Marklund H, Xie SM, Zhang M, Balsubramani A, et~al.
+\newblock WILDS: A Benchmark of In-the-Wild Distribution Shifts.
+\newblock In: Proceedings of the 38th International Conference on Machine
+  Learning. vol. 139 of Proceedings of Machine Learning Research. International
+  Conference on Machine Learning. Cambridge, MA, USA: PMLR; 2021. p.
+  5637--5664.
+\newblock Available from: \url{https://proceedings.mlr.press/v139/koh21a.html}.
 
-\bibitem{zhou2023dgsurvey}
-\bibinfo{author}{Zhou, K.}, \bibinfo{author}{Liu, Z.}, \bibinfo{author}{Qiao,
-  Y.}, \bibinfo{author}{Xiang, T.} \& \bibinfo{author}{Loy, C.~C.}
-\newblock \bibinfo{title}{Domain generalization: A survey}.
-\newblock \emph{\bibinfo{journal}{IEEE Transactions on Pattern Analysis and
-  Machine Intelligence}} \textbf{\bibinfo{volume}{45}},
-  \bibinfo{pages}{4396--4415} (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Yao et~al.}{2022}]{yao2022wildtime}
+Yao H, Choi C, Cao B, Lee Y, Koh PW, Finn C.
+\newblock Wild-Time: A Benchmark of In-the-Wild Distribution Shift over Time.
+\newblock In: Advances in Neural Information Processing Systems. Neural
+  Information Processing Systems Foundation; 2022. Datasets and Benchmarks
+  Track.
 
-\bibitem{huang2021powerofdata}
-\bibinfo{author}{Huang, H.-Y.} \emph{et~al.}
-\newblock \bibinfo{title}{Power of data in quantum machine learning}.
-\newblock \emph{\bibinfo{journal}{Nature Communications}}
-  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{2631} (\bibinfo{year}{2021}).
+\bibitem[\protect\citeauthoryear{Zhou et~al.}{2023}]{zhou2023dgsurvey}
+Zhou K, Liu Z, Qiao Y, Xiang T, Loy CC.
+\newblock Domain Generalization: A Survey.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence.
+  2023;45(4):4396--4415.
+\newblock \doi{10.1109/TPAMI.2022.3195549}.
 
-\bibitem{schreiber2023surrogates}
-\bibinfo{author}{Schreiber, F.~J.}, \bibinfo{author}{Eisert, J.} \&
-  \bibinfo{author}{Meyer, J.~J.}
-\newblock \bibinfo{title}{Classical surrogates for quantum learning models}.
-\newblock \emph{\bibinfo{journal}{Physical Review Letters}}
-  \textbf{\bibinfo{volume}{131}}, \bibinfo{pages}{100803}
-  (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Huang et~al.}{2021}]{huang2021powerofdata}
+Huang HY, Broughton M, Mohseni M, Babbush R, Boixo S, Neven H, et~al.
+\newblock Power of Data in Quantum Machine Learning.
+\newblock Nature Communications. 2021;12:2631.
+\newblock \doi{10.1038/s41467-021-22539-9}.
 
-\bibitem{thabet2026disagree}
-\bibinfo{author}{Thabet, S.}, \bibinfo{author}{Monbroussou, L.},
-  \bibinfo{author}{Mamon, E.~Z.} \& \bibinfo{author}{Landman, J.}
-\newblock \bibinfo{title}{When quantum and classical models disagree: Learning
-  beyond minimum norm least square}.
-\newblock \emph{\bibinfo{journal}{npj Quantum Information}}
-  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{81} (\bibinfo{year}{2026}).
+\bibitem[\protect\citeauthoryear{Schreiber
+  et~al.}{2023}]{schreiber2023surrogates}
+Schreiber FJ, Eisert J, Meyer JJ.
+\newblock Classical Surrogates for Quantum Learning Models.
+\newblock Physical Review Letters. 2023;131:100803.
+\newblock \doi{10.1103/PhysRevLett.131.100803}.
 
-\bibitem{manski2003partialidentification}
-\bibinfo{author}{Manski, C.~F.}
-\newblock \emph{\bibinfo{title}{Partial Identification of Probability
-  Distributions}} Springer Series in Statistics (\bibinfo{publisher}{Springer},
-  \bibinfo{address}{New York, NY}, \bibinfo{year}{2003}).
+\bibitem[\protect\citeauthoryear{Tekeli}{2026}]{tekeli2026zzsurrogate}
+Tekeli E.
+\newblock The {ZZ} feature map induces a signless {L}aplacian metric: a
+  closed-form classical surrogate for quantum kernel regression.
+\newblock arXiv. 2026;abs/2608.29422.
+\newblock \doi{10.48550/arXiv.2608.29422}.
 
-\bibitem{molinari2020microeconometrics}
-\bibinfo{author}{Molinari, F.}
-\newblock \bibinfo{title}{ in \textit{Microeconometrics with partial
-  identification}} (eds \bibinfo{editor}{Durlauf, S.~N.},
-  \bibinfo{editor}{Hansen, L.~P.}, \bibinfo{editor}{Heckman, J.~J.} \&
-  \bibinfo{editor}{Matzkin, R.~L.}) \emph{\bibinfo{booktitle}{Handbook of
-  Econometrics, Volume 7A}} \bibinfo{pages}{355--486}
-  (\bibinfo{publisher}{Elsevier}, \bibinfo{year}{2020}).
+\bibitem[\protect\citeauthoryear{Thabet et~al.}{2026}]{thabet2026disagree}
+Thabet S, Monbroussou L, Mamon EZ, Landman J.
+\newblock When Quantum and Classical Models Disagree: Learning Beyond Minimum
+  Norm Least Square.
+\newblock npj Quantum Information. 2026;12:81.
+\newblock \doi{10.1038/s41534-026-01217-y}.
 
-\bibitem{polo2024partialidentification}
-\bibinfo{author}{Polo, F.~M.}, \bibinfo{author}{Maity, S.},
-  \bibinfo{author}{Yurochkin, M.}, \bibinfo{author}{Banerjee, M.} \&
-  \bibinfo{author}{Sun, Y.} \emph{\bibinfo{title}{Weak supervision performance
-  evaluation via partial identification}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{37} (\bibinfo{year}{2024}).
+\bibitem[\protect\citeauthoryear{Manski}{2003}]{manski2003partialidentification}
+Manski CF.
+\newblock Partial Identification of Probability Distributions.
+\newblock Springer Series in Statistics. New York, NY: Springer; 2003.
 
-\bibitem{katariya2012activeevaluation}
-\bibinfo{author}{Katariya, N.}, \bibinfo{author}{Iyer, A.} \&
-  \bibinfo{author}{Sarawagi, S.} \emph{\bibinfo{title}{Active evaluation of
-  classifiers on large datasets}}.
-\newblock \emph{\bibinfo{booktitle}{2012 IEEE 12th International Conference on
-  Data Mining}}, \bibinfo{pages}{329--338} (\bibinfo{publisher}{IEEE},
-  \bibinfo{year}{2012}).
+\bibitem[\protect\citeauthoryear{Molinari}{2020}]{molinari2020microeconometrics}
+Molinari F.
+\newblock Microeconometrics with Partial Identification.
+\newblock In: Durlauf SN, Hansen LP, Heckman JJ, Matzkin RL, editors. Handbook
+  of Econometrics, Volume 7A. Elsevier; 2020. p. 355--486.
 
-\bibitem{kossen2021activetesting}
-\bibinfo{author}{Kossen, J.}, \bibinfo{author}{Farquhar, S.},
-  \bibinfo{author}{Gal, Y.} \& \bibinfo{author}{Rainforth, T.}
-  \emph{\bibinfo{title}{Active testing: Sample-efficient model evaluation}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of the 38th International
-  Conference on Machine Learning}}, Vol. \bibinfo{volume}{139} of
-  \emph{\bibinfo{series}{Proceedings of Machine Learning Research}},
-  \bibinfo{pages}{5753--5763} (\bibinfo{publisher}{PMLR},
-  \bibinfo{year}{2021}).
-\newblock \urlprefix\url{https://proceedings.mlr.press/v139/kossen21a.html}.
+\bibitem[\protect\citeauthoryear{Polo
+  et~al.}{2024}]{polo2024partialidentification}
+Polo FM, Maity S, Yurochkin M, Banerjee M, Sun Y.
+\newblock Weak Supervision Performance Evaluation via Partial Identification.
+\newblock In: Advances in Neural Information Processing Systems. vol.~37; 2024.
+  .
 
-\bibitem{kossen2022activesurrogate}
-\bibinfo{author}{Kossen, J.}, \bibinfo{author}{Farquhar, S.},
-  \bibinfo{author}{Gal, Y.} \& \bibinfo{author}{Rainforth, T.}
-  \emph{\bibinfo{title}{Active surrogate estimators: An active learning
-  approach to label-efficient model evaluation}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{35}, \bibinfo{pages}{24557--24570}
-  (\bibinfo{year}{2022}).
-\newblock
-  \urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/9b9cfd5428153ccfbd4ba34b7e007305-Abstract-Conference.html}.
+\bibitem[\protect\citeauthoryear{Katariya
+  et~al.}{2012}]{katariya2012activeevaluation}
+Katariya N, Iyer A, Sarawagi S.
+\newblock Active Evaluation of Classifiers on Large Datasets.
+\newblock In: 2012 IEEE 12th International Conference on Data Mining. IEEE;
+  2012. p. 329--338.
 
-\bibitem{ashouritaklimi2026predictionpowered}
-\bibinfo{author}{Ashouritaklimi, K.}, \bibinfo{author}{Kilian, V.},
-  \bibinfo{author}{Huang, D.}, \bibinfo{author}{Rainforth, T.} \&
-  \bibinfo{author}{Caron, F.}
-\newblock \bibinfo{title}{Prediction-powered active testing}
-  (\bibinfo{year}{2026}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2607.08347}.
-\newblock \bibinfo{note}{Preprint},
-  \bibinfo{eprint}{{\href{https://arxiv.org/abs/2607.08347}{{arXiv:2607.08347}}}}.
+\bibitem[\protect\citeauthoryear{Kossen et~al.}{2021}]{kossen2021activetesting}
+Kossen J, Farquhar S, Gal Y, Rainforth T.
+\newblock Active Testing: Sample-Efficient Model Evaluation.
+\newblock In: Proceedings of the 38th International Conference on Machine
+  Learning. vol. 139 of Proceedings of Machine Learning Research. PMLR; 2021.
+  p. 5753--5763.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v139/kossen21a.html}.
 
-\bibitem{okanovic2025modelselector}
-\bibinfo{author}{Okanovic, P.} \emph{et~al.} \emph{\bibinfo{title}{All models
-  are wrong, some are useful: Model selection with limited labels}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of The 28th International
-  Conference on Artificial Intelligence and Statistics}}, Vol.
-  \bibinfo{volume}{258} of \emph{\bibinfo{series}{Proceedings of Machine
-  Learning Research}}, \bibinfo{pages}{2035--2043} (\bibinfo{publisher}{PMLR},
-  \bibinfo{year}{2025}).
-\newblock \urlprefix\url{https://proceedings.mlr.press/v258/okanovic25a.html}.
+\bibitem[\protect\citeauthoryear{Kossen
+  et~al.}{2022}]{kossen2022activesurrogate}
+Kossen J, Farquhar S, Gal Y, Rainforth T.
+\newblock Active Surrogate Estimators: An Active Learning Approach to
+  Label-Efficient Model Evaluation.
+\newblock In: Advances in Neural Information Processing Systems. vol.~35; 2022.
+  p. 24557--24570.
+\newblock Available from:
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/9b9cfd5428153ccfbd4ba34b7e007305-Abstract-Conference.html}.
 
-\bibitem{shanmugam2025evaluating}
-\bibinfo{author}{Shanmugam, D.} \emph{et~al.} \emph{\bibinfo{title}{Evaluating
-  multiple models using labeled and unlabeled data}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{38}, \bibinfo{pages}{30612--30648}
-  (\bibinfo{year}{2025}).
-\newblock
-  \urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2025/hash/2c0e78cc177dfeca260ef990a8c99209-Abstract-Conference.html}.
+\bibitem[\protect\citeauthoryear{Ashouritaklimi
+  et~al.}{2026}]{ashouritaklimi2026predictionpowered}
+Ashouritaklimi K, Kilian V, Huang D, Rainforth T, Caron F.
+\newblock Prediction-Powered Active Testing.
+\newblock arXiv. 2026;abs/2607.08347.
+\newblock \doi{10.48550/arXiv.2607.08347}.
 
-\bibitem{garg2022leveraging}
-\bibinfo{author}{Garg, S.}, \bibinfo{author}{Balakrishnan, S.},
-  \bibinfo{author}{Lipton, Z.~C.}, \bibinfo{author}{Neyshabur, B.} \&
-  \bibinfo{author}{Sedghi, H.} \emph{\bibinfo{title}{Leveraging unlabeled data
-  to predict out-of-distribution performance}}.
-\newblock \emph{\bibinfo{booktitle}{International Conference on Learning
-  Representations}} (\bibinfo{year}{2022}).
-\newblock \urlprefix\url{https://openreview.net/forum?id=o_HsiMPYh_x}.
+\bibitem[\protect\citeauthoryear{Okanovic
+  et~al.}{2025}]{okanovic2025modelselector}
+Okanovic P, Kirsch A, Kasper J, Hoefler T, Krause A, G{\"u}rel NM.
+\newblock All Models Are Wrong, Some Are Useful: Model Selection with Limited
+  Labels.
+\newblock In: Proceedings of The 28th International Conference on Artificial
+  Intelligence and Statistics. vol. 258 of Proceedings of Machine Learning
+  Research. PMLR; 2025. p. 2035--2043.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v258/okanovic25a.html}.
 
-\bibitem{rosenfeld2023disagreement}
-\bibinfo{author}{Rosenfeld, E.} \& \bibinfo{author}{Garg, S.}
-  \emph{\bibinfo{title}{(almost) provable error bounds under distribution shift
-  via disagreement discrepancy}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{36}, \bibinfo{pages}{28761--28784}
-  (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Shanmugam
+  et~al.}{2025}]{shanmugam2025evaluating}
+Shanmugam D, Sadhuka S, Raghavan M, Guttag J, Berger B, Pierson E.
+\newblock Evaluating Multiple Models Using Labeled and Unlabeled Data.
+\newblock In: Advances in Neural Information Processing Systems. vol.~38; 2025.
+  p. 30612--30648.
+\newblock Available from:
+  \url{https://proceedings.neurips.cc/paper_files/paper/2025/hash/2c0e78cc177dfeca260ef990a8c99209-Abstract-Conference.html}.
 
-\bibitem{mishra2025odd}
-\bibinfo{author}{Mishra, A.} \& \bibinfo{author}{Liu, A.}
-  \emph{\bibinfo{title}{{ODD}: Overlap-aware estimation of model performance
-  under distribution shift}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of the 41st Conference on
-  Uncertainty in Artificial Intelligence}}, Vol. \bibinfo{volume}{286} of
-  \emph{\bibinfo{series}{Proceedings of Machine Learning Research}},
-  \bibinfo{pages}{3031--3047} (\bibinfo{publisher}{PMLR},
-  \bibinfo{year}{2025}).
-\newblock \urlprefix\url{https://proceedings.mlr.press/v286/mishra25a.html}.
+\bibitem[\protect\citeauthoryear{Garg et~al.}{2022}]{garg2022leveraging}
+Garg S, Balakrishnan S, Lipton ZC, Neyshabur B, Sedghi H.
+\newblock Leveraging Unlabeled Data to Predict Out-of-Distribution Performance.
+\newblock In: International Conference on Learning Representations; 2022.
+  Available from: \url{https://openreview.net/forum?id=o_HsiMPYh_x}.
 
-\bibitem{madani2004covalidation}
-\bibinfo{author}{Madani, O.}, \bibinfo{author}{Pennock, D.~M.} \&
-  \bibinfo{author}{Flake, G.~W.} \emph{\bibinfo{title}{Co-validation: Using
-  model disagreement on unlabeled data to validate classification algorithms}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{17}, \bibinfo{pages}{873--880}
-  (\bibinfo{year}{2004}).
-\newblock
-  \urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2004/hash/92f54963fc39a9d87c2253186808ea61-Abstract.html}.
+\bibitem[\protect\citeauthoryear{Rosenfeld and
+  Garg}{2023}]{rosenfeld2023disagreement}
+Rosenfeld E, Garg S.
+\newblock (Almost) Provable Error Bounds Under Distribution Shift via
+  Disagreement Discrepancy.
+\newblock In: Advances in Neural Information Processing Systems. vol.~36; 2023.
+  p. 28761--28784.
 
-\bibitem{musgrove2023discordant}
-\bibinfo{author}{Musgrove, D.}, \bibinfo{author}{Radtke, A.} \&
-  \bibinfo{author}{Haddad, T.}
-\newblock \bibinfo{title}{Discordant pair analysis for sample efficient model
-  evaluation}.
-\newblock \emph{\bibinfo{journal}{Scientific Reports}}
-  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{20987} (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Mishra and Liu}{2025}]{mishra2025odd}
+Mishra A, Liu A.
+\newblock {ODD}: Overlap-Aware Estimation of Model Performance under
+  Distribution Shift.
+\newblock In: Proceedings of the 41st Conference on Uncertainty in Artificial
+  Intelligence. vol. 286 of Proceedings of Machine Learning Research. PMLR;
+  2025. p. 3031--3047.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v286/mishra25a.html}.
 
-\bibitem{balsubramani2015optimally}
-\bibinfo{author}{Balsubramani, A.} \& \bibinfo{author}{Freund, Y.}
-  \emph{\bibinfo{title}{Optimally combining classifiers using unlabeled data}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of the 28th Conference on
-  Learning Theory}}, Vol.~\bibinfo{volume}{40} of
-  \emph{\bibinfo{series}{Proceedings of Machine Learning Research}},
-  \bibinfo{pages}{211--225} (\bibinfo{publisher}{PMLR}, \bibinfo{year}{2015}).
-\newblock
-  \urlprefix\url{https://proceedings.mlr.press/v40/Balsubramani15.html}.
+\bibitem[\protect\citeauthoryear{Han and Qu}{2026}]{han2026labelcomplexity}
+Han W, Qu L.
+\newblock The Label Complexity of Class-Conditional Coverage under Distribution
+  Shift.
+\newblock arXiv. 2026;abs/2607.18088.
+\newblock \doi{10.48550/arXiv.2607.18088}.
 
-\bibitem{abreu2024qmlids}
-\bibinfo{author}{Abreu, D.}, \bibinfo{author}{Esteve~Rothenberg, C.} \&
-  \bibinfo{author}{Abel{\'e}m, A.} \emph{\bibinfo{title}{{QML-IDS}: Quantum
-  machine learning intrusion detection system}}.
-\newblock \emph{\bibinfo{booktitle}{2024 IEEE Symposium on Computers and
-  Communications (ISCC)}}, \bibinfo{pages}{1--6}. \bibinfo{organization}{IEEE
-  Computer Society} (\bibinfo{publisher}{IEEE}, \bibinfo{address}{Paris,
-  France}, \bibinfo{year}{2024}).
+\bibitem[\protect\citeauthoryear{Madani et~al.}{2004}]{madani2004covalidation}
+Madani O, Pennock DM, Flake GW.
+\newblock Co-Validation: Using Model Disagreement on Unlabeled Data to Validate
+  Classification Algorithms.
+\newblock In: Advances in Neural Information Processing Systems. vol.~17; 2004.
+  p. 873--880.
+\newblock Available from:
+  \url{https://proceedings.neurips.cc/paper_files/paper/2004/hash/92f54963fc39a9d87c2253186808ea61-Abstract.html}.
 
-\bibitem{abreu2025quantumnetsec}
-\bibinfo{author}{Abreu, D.}, \bibinfo{author}{Moura, D.},
-  \bibinfo{author}{Esteve~Rothenberg, C.} \& \bibinfo{author}{Abel{\'e}m, A.}
-\newblock \bibinfo{title}{{QuantumNetSec}: Quantum machine learning for network
-  security}.
-\newblock \emph{\bibinfo{journal}{International Journal of Network Management}}
-  \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{e70018}
-  (\bibinfo{year}{2025}).
+\bibitem[\protect\citeauthoryear{Musgrove
+  et~al.}{2023}]{musgrove2023discordant}
+Musgrove D, Radtke A, Haddad T.
+\newblock Discordant Pair Analysis for Sample Efficient Model Evaluation.
+\newblock Scientific Reports. 2023;13:20987.
+\newblock \doi{10.1038/s41598-023-48017-4}.
 
-\bibitem{bellante2025evaluating}
-\bibinfo{author}{Bellante, A.}, \bibinfo{author}{Fioravanti, T.},
-  \bibinfo{author}{Carminati, M.}, \bibinfo{author}{Zanero, S.} \&
-  \bibinfo{author}{Luongo, A.}
-\newblock \bibinfo{title}{Evaluating the potential of quantum machine learning
-  in cybersecurity: A case-study on {PCA}-based intrusion detection systems}.
-\newblock \emph{\bibinfo{journal}{Computers \& Security}}
-  \textbf{\bibinfo{volume}{154}}, \bibinfo{pages}{104341}
-  (\bibinfo{year}{2025}).
+\bibitem[\protect\citeauthoryear{Balsubramani and
+  Freund}{2015}]{balsubramani2015optimally}
+Balsubramani A, Freund Y.
+\newblock Optimally Combining Classifiers Using Unlabeled Data.
+\newblock In: Proceedings of the 28th Conference on Learning Theory. vol.~40 of
+  Proceedings of Machine Learning Research. PMLR; 2015. p. 211--225.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v40/Balsubramani15.html}.
 
-\bibitem{bazinet2026bound}
-\bibinfo{author}{Bazinet, M.}, \bibinfo{author}{Zantedeschi, V.} \&
-  \bibinfo{author}{Germain, P.}
-\newblock \bibinfo{title}{Bound to disagree: Generalization bounds via
-  certifiable surrogates} (\bibinfo{year}{2026}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2602.23128}.
-\newblock \bibinfo{note}{Preprint},
-  \bibinfo{eprint}{{\href{https://arxiv.org/abs/2602.23128}{{arXiv:2602.23128}}}}.
+\bibitem[\protect\citeauthoryear{Fern{\'a}ndez-Barrios
+  et~al.}{2026}]{fernandezbarrios2026conditional}
+Fern{\'a}ndez-Barrios R, Pastor-L{\'o}pez I, Gonz{\'a}lez-Santocildes A,
+  Garc{\'i}a~Bringas P.
+\newblock Conditional validity of quantum event classifiers under collider
+  systematics and quantum estimation uncertainty.
+\newblock arXiv. 2026;abs/2609.02781.
+\newblock \doi{10.48550/arXiv.2609.02781}.
 
-\bibitem{quinonero-candela2008datasetshift}
-\bibinfo{editor}{Qui{\~n}onero-Candela, J.}, \bibinfo{editor}{Sugiyama, M.},
-  \bibinfo{editor}{Schwaighofer, A.} \& \bibinfo{editor}{Lawrence, N.~D.} (eds)
-  \emph{\bibinfo{title}{Dataset Shift in Machine Learning}}
-  (\bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA},
-  \bibinfo{year}{2008}).
+\bibitem[\protect\citeauthoryear{Abreu et~al.}{2024}]{abreu2024qmlids}
+Abreu D, Esteve~Rothenberg C, Abel{\'e}m A.
+\newblock {QML-IDS}: Quantum Machine Learning Intrusion Detection System.
+\newblock In: 2024 IEEE Symposium on Computers and Communications (ISCC). IEEE
+  Computer Society. Paris, France: IEEE; 2024. p. 1--6.
 
-\bibitem{shaydulin2022bandwidth}
-\bibinfo{author}{Shaydulin, R.} \& \bibinfo{author}{Wild, S.~M.}
-\newblock \bibinfo{title}{Importance of kernel bandwidth in quantum machine
-  learning}.
-\newblock \emph{\bibinfo{journal}{Physical Review A}}
-  \textbf{\bibinfo{volume}{106}}, \bibinfo{pages}{042407}
-  (\bibinfo{year}{2022}).
+\bibitem[\protect\citeauthoryear{Abreu et~al.}{2025}]{abreu2025quantumnetsec}
+Abreu D, Moura D, Esteve~Rothenberg C, Abel{\'e}m A.
+\newblock {QuantumNetSec}: Quantum Machine Learning for Network Security.
+\newblock International Journal of Network Management. 2025;35(4):e70018.
+\newblock \doi{10.1002/nem.70018}.
 
-\bibitem{canatar2023bandwidth}
-\bibinfo{author}{Canatar, A.}, \bibinfo{author}{Peters, E.},
-  \bibinfo{author}{Pehlevan, C.}, \bibinfo{author}{Wild, S.~M.} \&
-  \bibinfo{author}{Shaydulin, R.}
-\newblock \bibinfo{title}{Bandwidth enables generalization in quantum kernel
-  models}.
-\newblock \emph{\bibinfo{journal}{Transactions on Machine Learning Research}}
-  (\bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Bellante
+  et~al.}{2025}]{bellante2025evaluating}
+Bellante A, Fioravanti T, Carminati M, Zanero S, Luongo A.
+\newblock Evaluating the Potential of Quantum Machine Learning in
+  Cybersecurity: A Case-Study on {PCA}-Based Intrusion Detection Systems.
+\newblock Computers \& Security. 2025;154:104341.
+\newblock \doi{10.1016/j.cose.2025.104341}.
 
-\bibitem{kubler2021inductivebias}
-\bibinfo{author}{K{\"u}bler, J.~M.}, \bibinfo{author}{Buchholz, S.} \&
-  \bibinfo{author}{Sch{\"o}lkopf, B.} \emph{\bibinfo{title}{The inductive bias
-  of quantum kernels}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems (NeurIPS)}}, Vol.~\bibinfo{volume}{34}, \bibinfo{pages}{12661--12673}
-  (\bibinfo{organization}{Neural Information Processing Systems Foundation},
-  \bibinfo{year}{2021}).
+\bibitem[\protect\citeauthoryear{Bazinet et~al.}{2026}]{bazinet2026bound}
+Bazinet M, Zantedeschi V, Germain P.
+\newblock Bound to Disagree: Generalization Bounds via Certifiable Surrogates.
+\newblock arXiv. 2026;abs/2602.23128.
+\newblock \doi{10.48550/arXiv.2602.23128}.
 
-\bibitem{thanasilp2024concentration}
-\bibinfo{author}{Thanasilp, S.}, \bibinfo{author}{Wang, S.},
-  \bibinfo{author}{Cerezo, M.} \& \bibinfo{author}{Holmes, Z.}
-\newblock \bibinfo{title}{Exponential concentration in quantum kernel methods}.
-\newblock \emph{\bibinfo{journal}{Nature Communications}}
-  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{5200} (\bibinfo{year}{2024}).
+\bibitem[\protect\citeauthoryear{Qui{\~n}onero-Candela
+  et~al.}{2008}]{quinonero-candela2008datasetshift}
+Qui{\~n}onero-Candela J, Sugiyama M, Schwaighofer A, Lawrence ND, editors.
+\newblock Dataset Shift in Machine Learning.
+\newblock Cambridge, MA: MIT Press; 2008.
 
-\bibitem{wang2021nisq}
-\bibinfo{author}{Wang, X.}, \bibinfo{author}{Du, Y.}, \bibinfo{author}{Luo, Y.}
-  \& \bibinfo{author}{Tao, D.}
-\newblock \bibinfo{title}{Towards understanding the power of quantum kernels in
-  the {NISQ} era}.
-\newblock \emph{\bibinfo{journal}{Quantum}} \textbf{\bibinfo{volume}{5}},
-  \bibinfo{pages}{531} (\bibinfo{year}{2021}).
+\bibitem[\protect\citeauthoryear{Shaydulin and
+  Wild}{2022}]{shaydulin2022bandwidth}
+Shaydulin R, Wild SM.
+\newblock Importance of Kernel Bandwidth in Quantum Machine Learning.
+\newblock Physical Review A. 2022;106(4):042407.
+\newblock \doi{10.1103/PhysRevA.106.042407}.
 
-\bibitem{gentinetta2024complexity}
-\bibinfo{author}{Gentinetta, G.}, \bibinfo{author}{Thomsen, A.},
-  \bibinfo{author}{Sutter, D.} \& \bibinfo{author}{Woerner, S.}
-\newblock \bibinfo{title}{The complexity of quantum support vector machines}.
-\newblock \emph{\bibinfo{journal}{Quantum}} \textbf{\bibinfo{volume}{8}},
-  \bibinfo{pages}{1225} (\bibinfo{year}{2024}).
+\bibitem[\protect\citeauthoryear{Canatar et~al.}{2023}]{canatar2023bandwidth}
+Canatar A, Peters E, Pehlevan C, Wild SM, Shaydulin R.
+\newblock Bandwidth Enables Generalization in Quantum Kernel Models.
+\newblock Transactions on Machine Learning Research. 2023;.
 
-\bibitem{agliardi2026covariant}
-\bibinfo{author}{Agliardi, G.} \emph{et~al.}
-\newblock \bibinfo{title}{Mitigating exponential concentration in covariant
-  quantum kernels for subspace and real-world data}.
-\newblock \emph{\bibinfo{journal}{npj Quantum Information}}
-  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{12} (\bibinfo{year}{2026}).
+\bibitem[\protect\citeauthoryear{K{\"u}bler
+  et~al.}{2021}]{kubler2021inductivebias}
+K{\"u}bler JM, Buchholz S, Sch{\"o}lkopf B.
+\newblock The Inductive Bias of Quantum Kernels.
+\newblock In: Advances in Neural Information Processing Systems (NeurIPS).
+  vol.~34. Neural Information Processing Systems Foundation; 2021. p.
+  12661--12673.
 
-\bibitem{liu2021rigorous}
-\bibinfo{author}{Liu, Y.}, \bibinfo{author}{Arunachalam, S.} \&
-  \bibinfo{author}{Temme, K.}
-\newblock \bibinfo{title}{A rigorous and robust quantum speed-up in supervised
-  machine learning}.
-\newblock \emph{\bibinfo{journal}{Nature Physics}}
-  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{1013--1017}
-  (\bibinfo{year}{2021}).
+\bibitem[\protect\citeauthoryear{Thanasilp
+  et~al.}{2024}]{thanasilp2024concentration}
+Thanasilp S, Wang S, Cerezo M, Holmes Z.
+\newblock Exponential Concentration in Quantum Kernel Methods.
+\newblock Nature Communications. 2024;15:5200.
 
-\bibitem{jerbi2024shadows}
-\bibinfo{author}{Jerbi, S.}, \bibinfo{author}{Gyurik, C.},
-  \bibinfo{author}{Marshall, S.~C.}, \bibinfo{author}{Molteni, R.} \&
-  \bibinfo{author}{Dunjko, V.}
-\newblock \bibinfo{title}{Shadows of quantum machine learning}.
-\newblock \emph{\bibinfo{journal}{Nature Communications}}
-  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{5676} (\bibinfo{year}{2024}).
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2021}]{wang2021nisq}
+Wang X, Du Y, Luo Y, Tao D.
+\newblock Towards Understanding the Power of Quantum Kernels in the {NISQ} Era.
+\newblock Quantum. 2021;5:531.
+\newblock \doi{10.22331/q-2021-08-30-531}.
 
-\bibitem{engelen2021troubleshooting}
-\bibinfo{author}{Engelen, G.}, \bibinfo{author}{Rimmer, V.} \&
-  \bibinfo{author}{Joosen, W.} \emph{\bibinfo{title}{Troubleshooting an
-  intrusion detection dataset: The {CICIDS2017} case study}}.
-\newblock \emph{\bibinfo{booktitle}{2021 IEEE Security and Privacy Workshops
-  (SPW)}}, \bibinfo{pages}{7--12}. \bibinfo{organization}{IEEE Computer
-  Society} (\bibinfo{publisher}{IEEE}, \bibinfo{address}{San Francisco, CA,
-  USA}, \bibinfo{year}{2021}).
+\bibitem[\protect\citeauthoryear{Gentinetta
+  et~al.}{2024}]{gentinetta2024complexity}
+Gentinetta G, Thomsen A, Sutter D, Woerner S.
+\newblock The Complexity of Quantum Support Vector Machines.
+\newblock Quantum. 2024;8:1225.
+\newblock \doi{10.22331/q-2024-01-11-1225}.
 
-\bibitem{kakavand2026benchmarking}
-\bibinfo{author}{Kakavand, S.}, \bibinfo{author}{Strohmeyer, C.} \&
-  \bibinfo{author}{Schlotter, M.}
-\newblock \bibinfo{title}{Benchmarking quantum kernel support vector machines
-  against classical baselines on tabular data: A rigorous empirical study with
-  hardware validation}.
-\newblock \emph{\bibinfo{journal}{arXiv}}
-  \textbf{\bibinfo{volume}{abs/2604.18837}} (\bibinfo{year}{2026}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2604.18837}.
+\bibitem[\protect\citeauthoryear{Miroszewski}{2026}]{miroszewski2026adaptive}
+Miroszewski A.
+\newblock Adaptive Measurement Allocation for Learning Kernelized {SVMs} Under
+  Noisy Observations.
+\newblock arXiv. 2026;abs/2605.22275.
+\newblock \doi{10.48550/arXiv.2605.22275}.
 
-\bibitem{gardner2023tableshift}
-\bibinfo{author}{Gardner, J.}, \bibinfo{author}{Popovic, Z.} \&
-  \bibinfo{author}{Schmidt, L.} \emph{\bibinfo{title}{Benchmarking distribution
-  shift in tabular data with {TableShift}}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems}}, Vol.~\bibinfo{volume}{36} (\bibinfo{organization}{Neural
-  Information Processing Systems Foundation}, \bibinfo{year}{2023}).
+\bibitem[\protect\citeauthoryear{Agliardi et~al.}{2026}]{agliardi2026covariant}
+Agliardi G, Cortiana G, Dekusar A, Ghosh K, Mohseni N, O'Meara C, et~al.
+\newblock Mitigating Exponential Concentration in Covariant Quantum Kernels for
+  Subspace and Real-World Data.
+\newblock npj Quantum Information. 2026;12:12.
+\newblock \doi{10.1038/s41534-025-01154-2}.
 
-\bibitem{anderson2018ember}
-\bibinfo{author}{Anderson, H.~S.} \& \bibinfo{author}{Roth, P.}
-\newblock \bibinfo{title}{Ember: An open dataset for training static {PE}
-  malware machine learning models}.
-\newblock \emph{\bibinfo{journal}{arXiv}}
-  \textbf{\bibinfo{volume}{abs/1804.04637}} (\bibinfo{year}{2018}).
-\newblock \urlprefix\url{https://arxiv.org/abs/1804.04637}.
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2021}]{liu2021rigorous}
+Liu Y, Arunachalam S, Temme K.
+\newblock A Rigorous and Robust Quantum Speed-Up in Supervised Machine
+  Learning.
+\newblock Nature Physics. 2021;17:1013--1017.
+\newblock \doi{10.1038/s41567-021-01287-z}.
 
-\bibitem{moustafa2015unsw}
-\bibinfo{author}{Moustafa, N.} \& \bibinfo{author}{Slay, J.}
-  \emph{\bibinfo{title}{{UNSW-NB15}: A comprehensive data set for network
-  intrusion detection systems ({UNSW-NB15} network data set),}}.
-\newblock \emph{\bibinfo{booktitle}{2015 Military Communications and
-  Information Systems Conference (MilCIS)}}, \bibinfo{pages}{1--6}
-  (\bibinfo{organization}{IEEE}, \bibinfo{year}{2015}).
+\bibitem[\protect\citeauthoryear{Jerbi et~al.}{2024}]{jerbi2024shadows}
+Jerbi S, Gyurik C, Marshall SC, Molteni R, Dunjko V.
+\newblock Shadows of Quantum Machine Learning.
+\newblock Nature Communications. 2024;15:5676.
+\newblock \doi{10.1038/s41467-024-49877-8}.
 
-\bibitem{alsaedi2020toniot}
-\bibinfo{author}{Alsaedi, A.}, \bibinfo{author}{Moustafa, N.},
-  \bibinfo{author}{Tari, Z.}, \bibinfo{author}{Mahmood, A.} \&
-  \bibinfo{author}{Anwar, A.}
-\newblock \bibinfo{title}{{TON\_IoT} telemetry dataset: A new generation
-  dataset of {IoT} and {IIoT} for data-driven intrusion detection systems}.
-\newblock \emph{\bibinfo{journal}{IEEE Access}} \textbf{\bibinfo{volume}{8}},
-  \bibinfo{pages}{165130--165150} (\bibinfo{year}{2020}).
+\bibitem[\protect\citeauthoryear{Engelen
+  et~al.}{2021}]{engelen2021troubleshooting}
+Engelen G, Rimmer V, Joosen W.
+\newblock Troubleshooting an Intrusion Detection Dataset: The {CICIDS2017} Case
+  Study.
+\newblock In: 2021 IEEE Security and Privacy Workshops (SPW). IEEE Computer
+  Society. San Francisco, CA, USA: IEEE; 2021. p. 7--12.
 
-\bibitem{cortes1995svm}
-\bibinfo{author}{Cortes, C.} \& \bibinfo{author}{Vapnik, V.}
-\newblock \bibinfo{title}{Support-vector networks}.
-\newblock \emph{\bibinfo{journal}{Machine Learning}}
-  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{273--297}
-  (\bibinfo{year}{1995}).
+\bibitem[\protect\citeauthoryear{Kakavand
+  et~al.}{2026}]{kakavand2026benchmarking}
+Kakavand S, Strohmeyer C, Schlotter M.
+\newblock Benchmarking Quantum Kernel Support Vector Machines Against Classical
+  Baselines on Tabular Data: A Rigorous Empirical Study with Hardware
+  Validation.
+\newblock arXiv. 2026;abs/2604.18837.
+\newblock \doi{10.48550/arXiv.2604.18837}.
 
-\bibitem{rasmussen2006gpml}
-\bibinfo{author}{Rasmussen, C.~E.} \& \bibinfo{author}{Williams, C. K.~I.}
-\newblock \emph{\bibinfo{title}{Gaussian Processes for Machine Learning}}
-  (\bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA},
-  \bibinfo{year}{2006}).
+\bibitem[\protect\citeauthoryear{Gardner et~al.}{2023}]{gardner2023tableshift}
+Gardner J, Popovic Z, Schmidt L.
+\newblock Benchmarking Distribution Shift in Tabular Data with {TableShift}.
+\newblock In: Advances in Neural Information Processing Systems. vol.~36.
+  Neural Information Processing Systems Foundation; 2023. .
 
-\bibitem{javadiabhari2024qiskit}
-\bibinfo{author}{Javadi-Abhari, A.} \emph{et~al.}
-\newblock \bibinfo{title}{Quantum computing with qiskit}.
-\newblock \emph{\bibinfo{journal}{arXiv}}
-  \textbf{\bibinfo{volume}{abs/2405.08810}} (\bibinfo{year}{2024}).
-\newblock \urlprefix\url{https://arxiv.org/abs/2405.08810}.
+\bibitem[\protect\citeauthoryear{Anderson and Roth}{2018}]{anderson2018ember}
+Anderson HS, Roth P.
+\newblock EMBER: An Open Dataset for Training Static {PE} Malware Machine
+  Learning Models.
+\newblock arXiv. 2018;abs/1804.04637.
 
-\bibitem{ibragimov2016fewclusters}
-\bibinfo{author}{Ibragimov, R.} \& \bibinfo{author}{M{\"u}ller, U.~K.}
-\newblock \bibinfo{title}{Inference with few heterogeneous clusters}.
-\newblock \emph{\bibinfo{journal}{The Review of Economics and Statistics}}
-  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{83--96}
-  (\bibinfo{year}{2016}).
+\bibitem[\protect\citeauthoryear{Moustafa and Slay}{2015}]{moustafa2015unsw}
+Moustafa N, Slay J.
+\newblock {UNSW-NB15}: A Comprehensive Data Set for Network Intrusion Detection
+  Systems ({UNSW-NB15} Network Data Set),.
+\newblock In: 2015 Military Communications and Information Systems Conference
+  (MilCIS). IEEE; 2015. p. 1--6.
 
-\bibitem{guo2017calibration}
-\bibinfo{author}{Guo, C.}, \bibinfo{author}{Pleiss, G.}, \bibinfo{author}{Sun,
-  Y.} \& \bibinfo{author}{Weinberger, K.~Q.} \emph{\bibinfo{title}{On
-  calibration of modern neural networks}}.
-\newblock \emph{\bibinfo{booktitle}{Proceedings of the 34th International
-  Conference on Machine Learning (ICML)}}, Vol.~\bibinfo{volume}{70} of
-  \emph{\bibinfo{series}{PMLR}}, \bibinfo{pages}{1321--1330}
-  (\bibinfo{organization}{International Conference on Machine Learning},
-  \bibinfo{year}{2017}).
+\bibitem[\protect\citeauthoryear{Alsaedi et~al.}{2020}]{alsaedi2020toniot}
+Alsaedi A, Moustafa N, Tari Z, Mahmood A, Anwar A.
+\newblock {TON\_IoT} Telemetry Dataset: A New Generation Dataset of {IoT} and
+  {IIoT} for Data-Driven Intrusion Detection Systems.
+\newblock IEEE Access. 2020;8:165130--165150.
+\newblock \doi{10.1109/ACCESS.2020.3022862}.
 
-\bibitem{roy2007effective}
-\bibinfo{author}{Roy, O.} \& \bibinfo{author}{Vetterli, M.}
-  \emph{\bibinfo{title}{The effective rank: A measure of effective
-  dimensionality}}.
-\newblock \emph{\bibinfo{booktitle}{2007 15th European Signal Processing
-  Conference (EUSIPCO)}}, \bibinfo{pages}{606--610}
-  (\bibinfo{organization}{EURASIP}, \bibinfo{year}{2007}).
+\bibitem[\protect\citeauthoryear{Cortes and Vapnik}{1995}]{cortes1995svm}
+Cortes C, Vapnik V.
+\newblock Support-Vector Networks.
+\newblock Machine Learning. 1995;20(3):273--297.
+\newblock \doi{10.1007/BF00994018}.
 
-\bibitem{cristianini2001kta}
-\bibinfo{author}{Cristianini, N.}, \bibinfo{author}{Shawe-Taylor, J.},
-  \bibinfo{author}{Elisseeff, A.} \& \bibinfo{author}{Kandola, J.}
-  \emph{\bibinfo{title}{On kernel-target alignment}}.
-\newblock \emph{\bibinfo{booktitle}{Advances in Neural Information Processing
-  Systems (NeurIPS)}}, Vol.~\bibinfo{volume}{14} (\bibinfo{organization}{Neural
-  Information Processing Systems Foundation}, \bibinfo{year}{2001}).
+\bibitem[\protect\citeauthoryear{Rasmussen and
+  Williams}{2006}]{rasmussen2006gpml}
+Rasmussen CE, Williams CKI.
+\newblock Gaussian Processes for Machine Learning.
+\newblock Cambridge, MA: MIT Press; 2006.
 
-\bibitem{cortes2012centeredalignment}
-\bibinfo{author}{Cortes, C.}, \bibinfo{author}{Mohri, M.} \&
-  \bibinfo{author}{Rostamizadeh, A.}
-\newblock \bibinfo{title}{Algorithms for learning kernels based on centered
-  alignment}.
-\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
-  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{795--828}
-  (\bibinfo{year}{2012}).
+\bibitem[\protect\citeauthoryear{Javadi-Abhari
+  et~al.}{2024}]{javadiabhari2024qiskit}
+Javadi-Abhari A, Treinish M, Krsulich K, Wood CJ, Lishman J, Gacon J, et~al.
+\newblock Quantum Computing with Qiskit.
+\newblock arXiv. 2024;abs/2405.08810.
+\newblock \doi{10.48550/arXiv.2405.08810}.
 
-\bibitem{fernandezbarrios2026artifactv08}
-\bibinfo{author}{Fern{\'a}ndez-Barrios, R.}, \bibinfo{author}{Pastor-L{\'o}pez,
-  I.}, \bibinfo{author}{Gonz{\'a}lez-Santocildes, A.} \&
-  \bibinfo{author}{Garc{\'i}a~Bringas, P.}
-\newblock \bibinfo{title}{Evaluation choices shape apparent quantum kernel
-  robustness under distribution shift} (\bibinfo{year}{2026}).
-\newblock \urlprefix\url{https://doi.org/10.5281/zenodo.21717074}.
+\bibitem[\protect\citeauthoryear{Ibragimov and
+  M{\"u}ller}{2016}]{ibragimov2016fewclusters}
+Ibragimov R, M{\"u}ller UK.
+\newblock Inference with Few Heterogeneous Clusters.
+\newblock The Review of Economics and Statistics. 2016;98(1):83--96.
+\newblock \doi{10.1162/REST_a_00545}.
 
-\bibitem{uscensus2026pums}
-\bibinfo{author}{{U.S. Census Bureau}}.
-\newblock \bibinfo{title}{Public use microdata sample ({PUMS})}.
-\newblock
-  \bibinfo{howpublished}{\url{https://www.census.gov/programs-surveys/acs/microdata.html}}
-  (\bibinfo{year}{2026}).
-\newblock \bibinfo{note}{Accessed 2 August 2026}.
+\bibitem[\protect\citeauthoryear{Guo et~al.}{2017}]{guo2017calibration}
+Guo C, Pleiss G, Sun Y, Weinberger KQ.
+\newblock On Calibration of Modern Neural Networks.
+\newblock In: Proceedings of the 34th International Conference on Machine
+  Learning (ICML). vol.~70 of PMLR. International Conference on Machine
+  Learning; 2017. p. 1321--1330.
 
-\bibitem{cdc2022brfss}
-\bibinfo{author}{{Centers for Disease Control and Prevention}}.
-\newblock \bibinfo{title}{{BRFSS} frequently asked questions}.
-\newblock
-  \bibinfo{howpublished}{\url{https://www.cdc.gov/brfss/about/brfss_faq.htm}}
-  (\bibinfo{year}{2022}).
-\newblock \bibinfo{note}{Accessed 2 August 2026}.
+\bibitem[\protect\citeauthoryear{Roy and Vetterli}{2007}]{roy2007effective}
+Roy O, Vetterli M.
+\newblock The Effective Rank: A Measure of Effective Dimensionality.
+\newblock In: 2007 15th European Signal Processing Conference (EUSIPCO).
+  EURASIP; 2007. p. 606--610.
 
-\bibitem{cdc2026nhanesethics}
-\bibinfo{author}{{National Center for Health Statistics}}.
-\newblock \bibinfo{title}{Ethics review board approval: National health and
-  nutrition examination survey}.
-\newblock
-  \bibinfo{howpublished}{\url{https://www.cdc.gov/nchs/nhanes/about/erb.html}}
-  (\bibinfo{year}{2026}).
-\newblock \bibinfo{note}{Accessed 2 August 2026}.
+\bibitem[\protect\citeauthoryear{Cristianini et~al.}{2001}]{cristianini2001kta}
+Cristianini N, Shawe-Taylor J, Elisseeff A, Kandola J.
+\newblock On Kernel-Target Alignment.
+\newblock In: Advances in Neural Information Processing Systems (NeurIPS).
+  vol.~14. Neural Information Processing Systems Foundation; 2001. .
 
-\bibitem{uci2014diabetes}
-\bibinfo{author}{{UCI Machine Learning Repository}}.
-\newblock \bibinfo{title}{Diabetes 130-{US} hospitals for years 1999--2008}
-  (\bibinfo{year}{2014}).
-\newblock
-  \urlprefix\url{https://archive.ics.uci.edu/dataset/296/diabetes-130-us-hospitals-for-years-1999-2008}.
+\bibitem[\protect\citeauthoryear{Cortes
+  et~al.}{2012}]{cortes2012centeredalignment}
+Cortes C, Mohri M, Rostamizadeh A.
+\newblock Algorithms for Learning Kernels Based on Centered Alignment.
+\newblock Journal of Machine Learning Research. 2012;13(28):795--828.
 
-\bibitem{used2026scorecard}
-\bibinfo{author}{{U.S. Department of Education}}.
-\newblock \bibinfo{title}{College scorecard data}.
-\newblock \bibinfo{howpublished}{\url{https://collegescorecard.ed.gov/data/}}
-  (\bibinfo{year}{2026}).
-\newblock \bibinfo{note}{Accessed 2 August 2026}.
+\bibitem[\protect\citeauthoryear{{United States Census
+  Bureau}}{2026}]{uscensus2026pums}
+{United States Census Bureau}. Public Use Microdata Sample ({PUMS}).
+\newblock Accessed 2 August 2026.
+\newblock \url{https://www.census.gov/programs-surveys/acs/microdata.html}.
+
+\bibitem[\protect\citeauthoryear{{Centers for Disease Control and
+  Prevention}}{2022}]{cdc2022brfss}
+{Centers for Disease Control and Prevention}. {BRFSS} Frequently Asked
+  Questions.
+\newblock Accessed 2 August 2026.
+\newblock \url{https://www.cdc.gov/brfss/about/brfss_faq.htm}.
+
+\bibitem[\protect\citeauthoryear{{National Center for Health
+  Statistics}}{2026}]{cdc2026nhanesethics}
+{National Center for Health Statistics}. Ethics Review Board Approval: National
+  Health and Nutrition Examination Survey.
+\newblock Accessed 2 August 2026.
+\newblock \url{https://www.cdc.gov/nchs/nhanes/about/erb.html}.
+
+\bibitem[\protect\citeauthoryear{{UCI Machine Learning
+  Repository}}{2014}]{uci2014diabetes}
+{UCI Machine Learning Repository}. Diabetes 130-{US} Hospitals for Years
+  1999--2008.
+\newblock Available from:
+  \url{https://archive.ics.uci.edu/dataset/296/diabetes-130-us-hospitals-for-years-1999-2008}.
+
+\bibitem[\protect\citeauthoryear{{United States Department of
+  Education}}{2026}]{used2026scorecard}
+{United States Department of Education}. College Scorecard Data.
+\newblock Accessed 2 August 2026.
+\newblock \url{https://collegescorecard.ed.gov/data/}.
+
+\bibitem[\protect\citeauthoryear{Fern{\'a}ndez-Barrios
+  et~al.}{2026}]{fernandezbarrios2026artifactv08}
+Fern{\'a}ndez-Barrios R, Pastor-L{\'o}pez I, Gonz{\'a}lez-Santocildes A,
+  Garc{\'i}a~Bringas P. Evaluation Choices Shape Apparent Quantum Kernel
+  Robustness under Distribution Shift.
+\newblock Zenodo.
+\newblock Available from: \url{https://doi.org/10.5281/zenodo.21717074}.
 
 \end{thebibliography}

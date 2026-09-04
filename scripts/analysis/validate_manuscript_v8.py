@@ -1,4 +1,4 @@
-"""Fail-fast npj Quantum Information format gates for the v0.8 manuscript."""
+"""Fail-fast EPJ Quantum Technology format gates for the manuscript."""
 from __future__ import annotations
 
 import re
@@ -41,8 +41,12 @@ def validate_main(text: str) -> None:
         active,
         "active document class",
     )
-    if "sn-nature" not in documentclass:
-        raise ValueError("active document class must use sn-nature")
+    if "sn-vancouver-num" not in documentclass:
+        raise ValueError(
+            "active document class must use the numbered sn-vancouver-num style"
+        )
+    if "referee" not in documentclass or "lineno" not in documentclass:
+        raise ValueError("document class must keep double spacing and line numbers")
 
     title = extract_one(
         r"\\title(?:\[[^\]]*\])?\{([^{}]+)\}",
@@ -50,10 +54,6 @@ def validate_main(text: str) -> None:
         "article title",
     )
     title_words = tex_words(title)
-    if len(title_words) > 15:
-        raise ValueError(f"title has {len(title_words)} words, limit is 15")
-    if re.search(r"[:;,.!?]", title):
-        raise ValueError("article title contains prohibited punctuation")
     pdf_title = extract_one(
         r"pdftitle=\{([^{}]+)\}",
         active,
@@ -68,9 +68,9 @@ def validate_main(text: str) -> None:
         "unstructured abstract",
     )
     abstract_words = tex_words(abstract)
-    if len(abstract_words) > 150:
+    if len(abstract_words) > 350:
         raise ValueError(
-            f"abstract has {len(abstract_words)} words, limit is 150"
+            f"abstract has {len(abstract_words)} words, limit is 350"
         )
     if re.search(r"\\(?:cite|section|subsection)\b", abstract):
         raise ValueError("abstract contains a citation or subheading command")
@@ -78,36 +78,41 @@ def validate_main(text: str) -> None:
     display_items = len(
         re.findall(r"\\begin\{(?:figure\*?|table\*?)\}", active)
     )
-    if display_items > 10:
-        raise ValueError(
-            f"main manuscript has {display_items} display items, limit is 10"
-        )
-
-    for prohibited in ("Conclusion", "Conclusions", "Limitations"):
-        if re.search(
-            rf"\\(?:section|subsection)\*?\{{{prohibited}\}}",
-            active,
-            flags=re.IGNORECASE,
-        ):
-            raise ValueError(f"prohibited separate {prohibited} section")
 
     discussion_start = active.find(r"\section{Discussion}")
     methods_start = active.find(r"\section{Methods}")
-    data_start = active.find(r"\bmhead{Data Availability}")
+    data_start = active.find(r"\bmhead{Availability of data and materials}")
     if not (0 <= discussion_start < methods_start < data_start):
-        raise ValueError("Discussion, Methods, and Data Availability order is invalid")
-    discussion = active[discussion_start:methods_start]
-    if re.search(r"\\subsection\*?\{", discussion):
-        raise ValueError("Discussion contains a prohibited subsection")
+        raise ValueError("Discussion, Methods, and Declarations order is invalid")
     if r"\subsection{Use of generative AI}" not in active:
         raise ValueError("generative-AI disclosure is missing from Methods")
-    if r"\bmhead{Code Availability}" not in active:
-        raise ValueError("Code Availability statement is missing")
-    if r"\bmhead{Ethics approval and consent to participate}" not in active:
-        raise ValueError("public-data ethics statement is missing")
+    for heading in (
+        "Ethics approval and consent to participate",
+        "Consent for publication",
+        "Availability of data and materials",
+        "Competing interests",
+        "Funding",
+        "Authors' contributions",
+        "Acknowledgements",
+        "Supplementary information",
+    ):
+        if rf"\bmhead{{{heading}}}" not in active:
+            raise ValueError(f"declaration heading is missing: {heading}")
+    for field in (
+        "Project name:",
+        "Project home page:",
+        "Archived version:",
+        "Operating system(s):",
+        "Programming language:",
+        "License:",
+    ):
+        if field not in active:
+            raise ValueError(f"software availability field is missing: {field}")
+    if "Additional file 1" not in active:
+        raise ValueError("Additional file 1 is not declared")
 
     print(
-        "[ok] npj main format: "
+        "[ok] EPJ QT main format: "
         f"title={len(title_words)} words, abstract={len(abstract_words)} words, "
         f"display_items={display_items}"
     )
@@ -149,7 +154,7 @@ def main() -> None:
         raise FileNotFoundError("main or Supplementary LaTeX source is missing")
     validate_main(MAIN.read_text(encoding="utf-8"))
     validate_supplement(SUPPLEMENT.read_text(encoding="utf-8"))
-    print("[ok] all npj manuscript-format gates passed")
+    print("[ok] all EPJ Quantum Technology manuscript-format gates passed")
 
 
 if __name__ == "__main__":

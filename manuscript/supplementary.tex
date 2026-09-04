@@ -16,7 +16,7 @@
 \hypersetup{
   pdftitle={Supplementary Information: Sharp Target-Domain Certificates for Quantum-Kernel Advantage under Distribution Shift},
   pdfauthor={Roberto Fernandez-Barrios, Iker Pastor-Lopez, Asier Gonzalez-Santocildes, Pablo Garcia Bringas},
-  pdfsubject={Supplementary Information submitted to npj Quantum Information},
+  pdfsubject={Supplementary Information (Additional file 1) submitted to EPJ Quantum Technology},
   pdfkeywords={quantum machine learning, quantum kernels, partial identification, active testing, distribution shift},
   hidelinks
 }
@@ -360,7 +360,7 @@ this experiment corroborates Gate~2 against the prespecified classical-kernel
 reference family on the eligible fixed tasks but
 does not independently replicate the retrospective entangling-ZZ result.
 
-\section*{Supplementary Results: Cross-generation sensitivity map}
+\section*{Supplementary Results: Cross-protocol sensitivity map}
 \label{supp:specification}
 
 The ten rows remain in their prespecified S1--S10 order rather than being
@@ -369,17 +369,17 @@ scenario-groups. Scenario-groups are averaged within EMBER, UNSW-NB15, and
 ToN-IoT before the three source datasets receive equal weight. The corrected
 S10 values in Table~\ref{supp:tab_specification} are identical to the
 confirmatory endpoint in the main article. This display compares complete
-analysis specifications across two result generations; it is not a factorial
+analysis specifications across the earlier fixed-$C$ protocol and the controlled protocol; it is not a factorial
 decomposition of their individual choices.
 
 \begin{table}[ht]
 \centering
-\caption{Prespecified cross-generation definitions and source-dataset-equal
+\caption{Prespecified cross-protocol definitions and source-dataset-equal
 quantum-minus-classical OOD balanced-accuracy effects. ``Oracle'' selects and
 evaluates on the same OOD test labels; ``ID-val'' uses a disjoint
 in-distribution validation split. SVC regularization is fixed at $C=1$ or
 selected by training-only cross-validation; this axis is not applicable to
-GPC. S1--S4 use the legacy generation and S5--S10 use v4, so their boundary
+GPC. ``ID-test'' selects on the in-distribution test split of the earlier fixed-$C$ runs, which had no disjoint validation half. S1--S4 use that earlier protocol and S5--S10 use the controlled protocol, so their boundary
 does not isolate the effect of regularization. Values are descriptive
 fixed-case summaries, not per-axis causal effects.}
 \label{supp:tab_specification}
@@ -390,9 +390,9 @@ fixed-case summaries, not per-axis causal effects.}
 ID & Selection & SVC $C$ & Classical reference & Budget & SVC & GPC \\
 \midrule
 S1  & OOD oracle & Fixed & Linear/RBF & Native & $+0.0313$ & $+0.0340$ \\
-S2  & Legacy ID & Fixed & Linear/RBF & Native & $+0.0475$ & $+0.0418$ \\
+S2  & ID-test & Fixed & Linear/RBF & Native & $+0.0475$ & $+0.0418$ \\
 S3  & OOD oracle & Fixed & Extended & Native & $+0.0058$ & $+0.0145$ \\
-S4  & Legacy ID & Fixed & Extended & Native & $+0.0014$ & $+0.0122$ \\
+S4  & ID-test & Fixed & Extended & Native & $+0.0014$ & $+0.0122$ \\
 S5  & OOD oracle & Train CV & Linear/RBF & Native & $+0.0034$ & $+0.0125$ \\
 S6  & ID-val & Train CV & Linear/RBF & Native & $-0.0041$ & $+0.0059$ \\
 S7  & OOD oracle & Train CV & Extended & Native & $-0.0054$ & $+0.0012$ \\
@@ -750,10 +750,10 @@ Z, 2 reps. & separable product & 279 (25.8\%) & 177 (16.4\%) & 297 (27.5\%) & 28
 \end{tabular}
 \end{table}
 
-\section*{Supplementary Results: Within-v4 factorial}
+\section*{Supplementary Results: Evaluation-choice factorial}
 \label{supp:factorial}
 
-The q1000 factorial holds the v4 data generation, split roles, kernel
+The q1000 factorial holds the controlled-protocol data generation, split roles, kernel
 inventory, and preprocessing fixed while crossing regularization, selector,
 classical reference, and budget mode. Table~\ref{supp:tab_factorial} reports
 all 16 three-source-dataset-equal endpoints. The fixed-$C$, same-test-oracle,
@@ -763,7 +763,7 @@ These endpoints are fixed-case summaries, not population effects.
 
 \begin{table}[htbp]
 \centering
-\caption{Within-v4 q1000 SVC factorial. Entries are three-source-dataset-equal
+\caption{Evaluation-choice q1000 SVC factorial. Entries are three-source-dataset-equal
 quantum-minus-classical OOD balanced-accuracy effects. ``Native'' uses the
 complete family pools; ``equal count'' block-samples the larger family.
 Positive values favour the fidelity-kernel family.}
@@ -1004,6 +1004,7 @@ All four & 17,671,840,000 & 1,559,280,000 & 4,241,241,600,000 & 2,120,620,800,00
 \end{tabular}
 \end{table}
 
+\newpage
 \section*{Supplementary Results: Additional geometry and rank-matching displays}
 
 \begin{figure}[ht]
@@ -1071,7 +1072,7 @@ integrity-gated case artifacts unless forced. Target prediction matrices,
 separated audit labels, sharp envelopes, evidence-frontier curves, and
 finite-shot certificate outputs are under
 \texttt{results/v9/partial\_identification/}. Circuit-aware strata and the
-within-v4 factorial remain under \texttt{results/v8/}; prior inference,
+evaluation-choice factorial remain under \texttt{results/v8/}; prior inference,
 budget, rank, and finite-shot inputs remain under \texttt{results/v6/}.
 Frozen earlier artifacts are unchanged. The development repository is
 \url{https://github.com/roberto-fernandez-barrios/kernel_shift_framework},
