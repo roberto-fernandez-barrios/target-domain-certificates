@@ -8,6 +8,16 @@ date-released: 2026-08-03
 license: "BSD-3-Clause"
 repository-code: "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
 url: "https://doi.org/10.5281/zenodo.21776862"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21776862
+    description: "Version 1.1.6 (curated final artifact)"
+  - type: doi
+    value: 10.5281/zenodo.19147649
+    description: "Concept DOI resolving to the latest version"
+  - type: url
+    value: "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
+    description: "Development repository"
 
 authors:
   - family-names: "Fernández-Barrios"

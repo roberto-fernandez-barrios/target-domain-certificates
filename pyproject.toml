@@ -41,6 +41,11 @@ compat = [
   "qiskit>=1.0,<3"
 ]
 
+[project.urls]
+Homepage = "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
+Archive = "https://doi.org/10.5281/zenodo.21776862"
+Concept-DOI = "https://doi.org/10.5281/zenodo.19147649"
+
 [tool.setuptools]
 package-dir = {"" = "."}
 

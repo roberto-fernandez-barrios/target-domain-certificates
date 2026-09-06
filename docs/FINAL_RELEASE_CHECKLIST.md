@@ -2,6 +2,9 @@
 
 Last local validation: 3 August 2026.
 
+> Historical record of the v1.1.x release cycle. The submission target was changed on
+> 2026-09-04 to *EPJ Quantum Technology*; see `EPJQT_EDITORIAL_ADAPTATION.md`.
+
 Target: *npj Quantum Information*, Collection “Quantum machine learning:
 understanding capabilities, limitations, and perspectives for quantum
 advantage”. Baseline artifact: immutable v1.1.5, DOI
