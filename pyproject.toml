@@ -42,7 +42,7 @@ compat = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
+Homepage = "https://github.com/roberto-fernandez-barrios/target-domain-certificates"
 Archive = "https://doi.org/10.5281/zenodo.21776862"
 Concept-DOI = "https://doi.org/10.5281/zenodo.19147649"
 

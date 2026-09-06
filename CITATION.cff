@@ -6,7 +6,7 @@ version: "1.1.6"
 doi: 10.5281/zenodo.21776862
 date-released: 2026-08-03
 license: "BSD-3-Clause"
-repository-code: "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
+repository-code: "https://github.com/roberto-fernandez-barrios/target-domain-certificates"
 url: "https://doi.org/10.5281/zenodo.21776862"
 identifiers:
   - type: doi
@@ -16,7 +16,7 @@ identifiers:
     value: 10.5281/zenodo.19147649
     description: "Concept DOI resolving to the latest version"
   - type: url
-    value: "https://github.com/roberto-fernandez-barrios/kernel_shift_framework"
+    value: "https://github.com/roberto-fernandez-barrios/target-domain-certificates"
     description: "Development repository"
 
 authors:

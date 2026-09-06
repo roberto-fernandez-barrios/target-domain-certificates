@@ -2,15 +2,15 @@
 
 **Reproducibility artifact: code, frozen specifications, prediction locks, results, and manuscript sources.**
 
-[![CI](https://github.com/roberto-fernandez-barrios/kernel_shift_framework/actions/workflows/ci.yml/badge.svg)](https://github.com/roberto-fernandez-barrios/kernel_shift_framework/actions/workflows/ci.yml)
+[![CI](https://github.com/roberto-fernandez-barrios/target-domain-certificates/actions/workflows/ci.yml/badge.svg)](https://github.com/roberto-fernandez-barrios/target-domain-certificates/actions/workflows/ci.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19147649.svg)](https://doi.org/10.5281/zenodo.19147649)
-[![Release](https://img.shields.io/github/v/release/roberto-fernandez-barrios/kernel_shift_framework)](https://github.com/roberto-fernandez-barrios/kernel_shift_framework/releases)
+[![Release](https://img.shields.io/github/v/release/roberto-fernandez-barrios/target-domain-certificates)](https://github.com/roberto-fernandez-barrios/target-domain-certificates/releases)
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](LICENSE)
 [![Python 3.11 | 3.12](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue.svg)](pyproject.toml)
 
 This repository accompanies the research article *Sharp Target-Domain Certificates for Quantum-Kernel Advantage under Distribution Shift* by Roberto Fernández-Barrios, Iker Pastor-López, Asier González-Santocildes, and Pablo García Bringas (Faculty of Engineering, University of Deusto). It contains the complete code path, the frozen analysis specifications, the physically separated prediction locks and audit labels, the versioned result inputs, and the LaTeX sources of the main text and the Supplementary Information, so that every table, figure, and number in the article can be inspected and regenerated.
 
-**Status.** Research article prepared for journal submission (September 2026); no preprint has been posted. The immutable snapshot of this repository is archived on Zenodo as version 1.1.6 ([10.5281/zenodo.21776862](https://doi.org/10.5281/zenodo.21776862)); the concept DOI [10.5281/zenodo.19147649](https://doi.org/10.5281/zenodo.19147649) always resolves to the latest version.
+**Status.** Research article submitted to EPJ Quantum Technology on 6 September 2026; an arXiv preprint has been submitted. The immutable snapshot of this repository is archived on Zenodo as version 1.1.6 ([10.5281/zenodo.21776862](https://doi.org/10.5281/zenodo.21776862)); the concept DOI [10.5281/zenodo.19147649](https://doi.org/10.5281/zenodo.19147649) always resolves to the latest version.
 
 ## What the article establishes
 
@@ -172,7 +172,7 @@ Please cite the archived software release ([`CITATION.cff`](CITATION.cff)) and, 
   version = {1.1.6},
   year    = {2026},
   doi     = {10.5281/zenodo.21776862},
-  url     = {https://github.com/roberto-fernandez-barrios/kernel_shift_framework}
+  url     = {https://github.com/roberto-fernandez-barrios/target-domain-certificates}
 }
 ```
 
