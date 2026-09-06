@@ -235,7 +235,7 @@ def _panel_factorial(
         [label for _, _, label in FACTORIAL_ROWS],
     )
     axis.set_title(
-        "Within-v4 factorial: three-source-equal fixed-case effects",
+        "Evaluation-choice factorial: three-source-equal fixed-case effects",
         pad=5,
     )
     axis.tick_params(length=0)

@@ -71,3 +71,48 @@ The cover letter and the private submission notes are intentionally kept out
 of the repository, following the existing ignore rules. No release tag and no
 Zenodo version were created for this editorial adaptation; the submission
 package is identified by the commit that contains this file.
+
+## Pre-submission technical QA patch (2026-09-06)
+
+A closed technical patch followed an adversarial pre-submission audit of the
+package at commit 4966bbe. Automated comparison against that commit shows all
+`tabular` blocks, theorem environments, display equations, `\includegraphics`
+files, the abstract, the bibliography key set, and the cited keys unchanged.
+The only numeric change is item 1.
+
+1. Transcription fix. The Introduction and Results gave the SVC zero-label
+   upper-endpoint range as 0.002--0.050; Table 1, Supplementary Table 4, and
+   `results/v9/partial_identification/analysis/frontier_summary.csv` give 0.054
+   for EMBER m2 SVC (tier 115; 0.050 is EMBER m1). Both sentences now read
+   0.002--0.054. The GPC range and the overall range in the abstract were
+   already correct.
+2. Title page. `\orcidtext` no longer prints a literal "[ORCID]" superscript
+   (the iDs stay in the source for the submission form); "24.," in the street
+   address became "24,".
+3. Cross-references and terminology. "Supplementary Figure 5 and Table 11" now
+   reads "... and Supplementary Table 11"; twelve bare "Table N" / "Figure N"
+   references inside the Supplementary Information now read "Supplementary
+   Table N" / "Supplementary Figure N"; "GP" was unified to "GPC" (five
+   sentences, four rows of Supplementary Table 12); "ToN-IoT scanning under
+   GPC" now names the row cited, "the ToN-IoT constructed shift under GPC";
+   abbreviations are expanded at first use (SVC, GPC, ID, OOD, PSD, RBF, QML,
+   ATC, MILP, LODO, NIDS, BCa) and "KRR construction" reads "kernel-ridge
+   construction".
+4. Internal version labels. "v5 train-only semantic encoding" -> "frozen
+   train-only semantic encoding"; "v0.9 extension" -> "finite-shot certificate
+   extension"; Supplementary "v0.9 retrospective artifacts" -> "retrospective
+   certificate artifacts" and "v1.0 prospective inputs" -> "prospective
+   replication inputs". Hash salts, script names, file names, and `results/v*`
+   paths are unchanged. The Figure 5 panel c title "Within-v4 factorial" became
+   "Evaluation-choice factorial" (`scripts/reporting/make_v8_figures.py`); the
+   figure was regenerated from the same frozen inputs with Matplotlib 3.11.0
+   and differs from v1.1.6 only in that title string.
+5. Bibliography rendering. Two marked local guards in `sn-vancouver-num.bst`
+   suppress the stray ". ." (empty `pages` in `@inproceedings`) and ";." (empty
+   volume, number, and pages in `@article`) that appeared in references 19, 42,
+   54, and 64; a stray comma was removed from the UNSW-NB15 title (reference
+   56); the UCI entry carries the same "Accessed 2 August 2026" note as the
+   other web references. The set and order of references are unchanged.
+6. Verification. Main (63 pages) and Supplementary Information (16 pages)
+   compile with 0 undefined references, 0 multiply-defined labels, and
+   0 overfull boxes; gates v8--v11 and the 120-test suite pass.

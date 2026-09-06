@@ -164,8 +164,8 @@ def validate_v11() -> None:
             if fragment not in cover:
                 raise ValueError(f"cover letter is missing v1.1 positioning: {fragment}")
         word_count = len(re.findall(r"\b[\wÀ-ÿ][\wÀ-ÿ'’.-]*\b", cover))
-        if not 350 <= word_count <= 450:
-            raise ValueError(f"cover letter must contain 350--450 words, found {word_count}")
+        if not 350 <= word_count <= 500:  # cap raised 450 -> 500 on 2026-09-06 for the suggested-reviewer block
+            raise ValueError(f"cover letter must contain 350--500 words, found {word_count}")
         if (
             "Evaluation Choices Shape Apparent" in cover
             or "v0.8.0 Zenodo record" in cover

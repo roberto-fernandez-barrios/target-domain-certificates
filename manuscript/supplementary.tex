@@ -367,7 +367,7 @@ The ten rows remain in their prespecified S1--S10 order rather than being
 ranked by outcome. Every row includes all eight fixed security
 scenario-groups. Scenario-groups are averaged within EMBER, UNSW-NB15, and
 ToN-IoT before the three source datasets receive equal weight. The corrected
-S10 values in Table~\ref{supp:tab_specification} are identical to the
+S10 values in Supplementary Table~\ref{supp:tab_specification} are identical to the
 confirmatory endpoint in the main article. This display compares complete
 analysis specifications across the earlier fixed-$C$ protocol and the controlled protocol; it is not a factorial
 decomposition of their individual choices.
@@ -410,7 +410,7 @@ and deliberately target different estimands.
 \section*{Supplementary Results: Candidate-budget sampling}
 \label{supp:budget}
 
-Table~\ref{supp:tab_budget} shows every group--classifier cell under all three
+Supplementary Table~\ref{supp:tab_budget} shows every group--classifier cell under all three
 prespecified sampling schemes. The primary blocked scheme mirrors the
 five-dimension block structure of the quantum pool; the other schemes match
 candidate count but not the same search-space structure. Their close values
@@ -471,7 +471,7 @@ under GPC. The next largest is 0.00184 for UNSW-DoS constructed under SVC.
 \label{supp:rank}
 
 The predefined rank ratio is
-$\max(r_Q,r_C)/\min(r_Q,r_C)$. Table~\ref{supp:tab_rank} reports all
+$\max(r_Q,r_C)/\min(r_Q,r_C)$. Supplementary Table~\ref{supp:tab_rank} reports all
 calipers for both observational matchers. With replacement, 75.2\% of pairs
 survive the primary 1.25 caliper. One-to-one assignment has a smaller common
 support and becomes visibly poor without a caliper (95th-percentile ratio
@@ -518,7 +518,7 @@ causal family estimate.
 
 Effective-rank association changes sign across regimes, whereas OOD
 kernel-target alignment is more consistently positive
-(Table~\ref{supp:tab_geometry}). The source-dataset leave-one-out ordering
+(Supplementary Table~\ref{supp:tab_geometry}). The source-dataset leave-one-out ordering
 correlations are 0.28 for EMBER, 0.22 for UNSW-NB15, and 0.40 for ToN-IoT
 when trained on the other two sources.
 
@@ -569,14 +569,14 @@ Selection & Classifier & Classical reference & Q wins & Mean $\Delta$ & Median $
 \multirow{4}{*}{Best-by-OOD}
  & SVC & linear+RBF & 17/18 & $+0.0374$ & $+0.0426$ \\
  & SVC & extended & 15/18 & $+0.0044$ & $+0.0064$ \\
- & GP & linear+RBF & 15/18 & $+0.0283$ & $+0.0339$ \\
- & GP & extended & 11/18 & $+0.0023$ & $+0.0029$ \\
+ & GPC & linear+RBF & 15/18 & $+0.0283$ & $+0.0339$ \\
+ & GPC & extended & 11/18 & $+0.0023$ & $+0.0029$ \\
 \midrule
 \multirow{4}{*}{Best-by-ID}
  & SVC & linear+RBF & 18/18 & $+0.0775$ & $+0.0794$ \\
  & SVC & extended & 18/18 & $+0.0149$ & $+0.0152$ \\
- & GP & linear+RBF & 18/18 & $+0.0649$ & $+0.0664$ \\
- & GP & extended & 18/18 & $+0.0192$ & $+0.0166$ \\
+ & GPC & linear+RBF & 18/18 & $+0.0649$ & $+0.0664$ \\
+ & GPC & extended & 18/18 & $+0.0192$ & $+0.0166$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -584,7 +584,7 @@ Selection & Classifier & Classical reference & Q wins & Mean $\Delta$ & Median $
 \section*{Supplementary Results: Small-cluster interval sensitivity}
 \label{supp:intervals}
 
-Table~\ref{supp:tab_intervals} compares the primary pointwise conditional
+Supplementary Table~\ref{supp:tab_intervals} compares the primary pointwise conditional
 cluster-$t$ interval with the prespecified BCa and leave-one-q-split
 diagnostics. The effective replication unit is five q-split clusters in every
 row. These intervals are not simultaneous and are not used as a
@@ -685,7 +685,7 @@ Scenario & Clf. & $q=7$ & $q=42$ & $q=123$ & $q=999$ & $q=2024$ \\
 \section*{Supplementary Results: Quantum-map strata}
 \label{supp:quantum_strata}
 
-Table~\ref{supp:tab_quantum_strata} reports every fixed-case SVC effect after
+Supplementary Table~\ref{supp:tab_quantum_strata} reports every fixed-case SVC effect after
 separating the 30 entangling-ZZ and 30 separable-product candidates. Each
 stratum is compared with the expected P1$'$ winner over 5,000 blocked draws
 of six complete extended-classical blocks, also 30 candidates. The full pool
@@ -724,8 +724,8 @@ Source-dataset-equal & $-0.0057\;[-0.0080,-0.0029]$ & $-0.0093\;[-0.0116,-0.0058
 For P1$'$ selection, product maps account for 594/1,080 SVC winners and
 348/1,080 GPC winners. Under same-test OOD selection, the corresponding
 counts are 650/1,080 and 528/1,080. Complete counts by individual map are
-shown in Table~\ref{supp:tab_quantum_winners} and provided in
-\texttt{quantum\_winner\_composition.csv}.
+provided in \texttt{quantum\_winner\_composition.csv} and shown in
+Supplementary Table~\ref{supp:tab_quantum_winners}.
 
 \begin{table}[htbp]
 \centering
@@ -755,7 +755,7 @@ Z, 2 reps. & separable product & 279 (25.8\%) & 177 (16.4\%) & 297 (27.5\%) & 28
 
 The q1000 factorial holds the controlled-protocol data generation, split roles, kernel
 inventory, and preprocessing fixed while crossing regularization, selector,
-classical reference, and budget mode. Table~\ref{supp:tab_factorial} reports
+classical reference, and budget mode. Supplementary Table~\ref{supp:tab_factorial} reports
 all 16 three-source-dataset-equal endpoints. The fixed-$C$, same-test-oracle,
 customary-reference, native-budget corner is $+0.0131$; the train-CV,
 ID-validation, extended-reference, equal-count corner is $-0.0047$.
@@ -782,7 +782,7 @@ Train-CV, ID validation & $-0.0074$ & $-0.0084$ & $-0.0040$ & $-0.0047$ \\
 \end{tabular}
 \end{table}
 
-Table~\ref{supp:tab_factorial_contrasts} summarizes paired axis changes and
+Supplementary Table~\ref{supp:tab_factorial_contrasts} summarizes paired axis changes and
 pairwise differences-in-differences. Each axis row averages its paired change
 over the other eight factorial cells; each interaction row averages over the
 four cells of the remaining two axes. The relatively large
@@ -824,7 +824,7 @@ Interaction: selection $\times$ reference & $+0.0004$ \\
 The frozen q1000 sensitivity removes port-, protocol-, and service-related
 fields before fitting the shared train-only embedding. The ablation changes
 absolute task difficulty, especially for the ToN-IoT campaign shift, and can
-affect the two kernel families differently. Table~\ref{supp:tab_shortcut}
+affect the two kernel families differently. Supplementary Table~\ref{supp:tab_shortcut}
 therefore reports original, ablated, and paired-change effects separately.
 
 \begin{table}[htbp]
@@ -925,7 +925,7 @@ sensitivity, not a universal family ordering.
 
 Predictive entropy rises from ID to OOD for both honestly selected families
 in every scenario-group. Expected calibration error changes moderately and
-comparably (Figure~\ref{supp:fig_uncertainty}). Together with the controlled
+comparably (Supplementary Figure~\ref{supp:fig_uncertainty}). Together with the controlled
 accuracy results, these diagnostics provide no consistent evidence in the
 fixed cases of a calibration benefit unique to the selected fidelity kernels.
 Entropy increase alone is not evidence of good calibration.
@@ -943,7 +943,7 @@ descriptive; no population interval is implied.}
 \section*{Supplementary Results: Repeated finite-shot sensitivity}
 \label{supp:shots}
 
-Figure~\ref{supp:fig_shots} displays all 2,880 finite-shot evaluations:
+Supplementary Figure~\ref{supp:fig_shots} displays all 2,880 finite-shot evaluations:
 eight fixed exact Gram matrices, four shot counts, 30 measurement replicates,
 and three PSD-handling conditions. The bands make the conditional Monte Carlo
 spread visible rather than treating diversity across data configurations as
@@ -1058,7 +1058,7 @@ $B$ & Blocks & Median $U_B^{(0)}$ & Cell range & $U\leq.005$ & $U\leq.010$ & $U\
 \section*{Supplementary Results: Machine-readable result map}
 \label{supp:artifact}
 
-The v0.9 retrospective artifacts and manuscript gates are reproduced by
+The retrospective certificate artifacts and manuscript gates are reproduced by
 \begin{verbatim}
 python scripts/reproduce_v9.py --stage analysis
 python scripts/reproduce_v9.py --stage report
@@ -1081,8 +1081,8 @@ and the immutable v1.1.6 archive is
 \url{https://doi.org/10.5281/zenodo.19147649}. The exact v0.8.0 predecessor is
 identified by \url{https://doi.org/10.5281/zenodo.21717074}, and the exact
 v1.1.5 predecessor is \url{https://doi.org/10.5281/zenodo.21764577}; the exact
-v1.1.4 predecessor is \url{https://doi.org/10.5281/zenodo.21759058}. The v1.0
-prospective inputs and outputs are under
+v1.1.4 predecessor is \url{https://doi.org/10.5281/zenodo.21759058}. The
+prospective replication inputs and outputs are under
 \texttt{results/v10/gate2\_prospective/}; the frozen specification,
 acquisition audits, prediction locks, opaque label hashes, one-time opening
 record, all policy draws, technical-unavailability records, and final outcome

@@ -65,8 +65,8 @@ Shen J.
 Gulrajani I, Lopez-Paz D.
 \newblock In Search of Lost Domain Generalization.
 \newblock In: International Conference on Learning Representations.
-  International Conference on Learning Representations; 2021. Available from:
-  \url{https://openreview.net/forum?id=lQdXeXDoWtI}.
+  International Conference on Learning Representations; 2021.
+\newblock Available from: \url{https://openreview.net/forum?id=lQdXeXDoWtI}.
 
 \bibitem[\protect\citeauthoryear{Koh et~al.}{2021}]{koh2021wilds}
 Koh PW, Sagawa S, Marklund H, Xie SM, Zhang M, Balsubramani A, et~al.
@@ -81,8 +81,8 @@ Koh PW, Sagawa S, Marklund H, Xie SM, Zhang M, Balsubramani A, et~al.
 Yao H, Choi C, Cao B, Lee Y, Koh PW, Finn C.
 \newblock Wild-Time: A Benchmark of In-the-Wild Distribution Shift over Time.
 \newblock In: Advances in Neural Information Processing Systems. Neural
-  Information Processing Systems Foundation; 2022. Datasets and Benchmarks
-  Track.
+  Information Processing Systems Foundation; 2022.
+\newblock Datasets and Benchmarks Track.
 
 \bibitem[\protect\citeauthoryear{Zhou et~al.}{2023}]{zhou2023dgsurvey}
 Zhou K, Liu Z, Qiao Y, Xiang T, Loy CC.
@@ -134,7 +134,6 @@ Molinari F.
 Polo FM, Maity S, Yurochkin M, Banerjee M, Sun Y.
 \newblock Weak Supervision Performance Evaluation via Partial Identification.
 \newblock In: Advances in Neural Information Processing Systems. vol.~37; 2024.
-  .
 
 \bibitem[\protect\citeauthoryear{Dervovic and
   Cashmore}{2025}]{dervovic2025model}
@@ -204,7 +203,7 @@ Shanmugam D, Sadhuka S, Raghavan M, Guttag J, Berger B, Pierson E.
 Garg S, Balakrishnan S, Lipton ZC, Neyshabur B, Sedghi H.
 \newblock Leveraging Unlabeled Data to Predict Out-of-Distribution Performance.
 \newblock In: International Conference on Learning Representations; 2022.
-  Available from: \url{https://openreview.net/forum?id=o_HsiMPYh_x}.
+\newblock Available from: \url{https://openreview.net/forum?id=o_HsiMPYh_x}.
 
 \bibitem[\protect\citeauthoryear{Rosenfeld and
   Garg}{2023}]{rosenfeld2023disagreement}
@@ -318,7 +317,7 @@ Shaydulin R, Wild SM.
 \bibitem[\protect\citeauthoryear{Canatar et~al.}{2023}]{canatar2023bandwidth}
 Canatar A, Peters E, Pehlevan C, Wild SM, Shaydulin R.
 \newblock Bandwidth Enables Generalization in Quantum Kernel Models.
-\newblock Transactions on Machine Learning Research. 2023;.
+\newblock Transactions on Machine Learning Research. 2023.
 
 \bibitem[\protect\citeauthoryear{K{\"u}bler
   et~al.}{2021}]{kubler2021inductivebias}
@@ -403,7 +402,7 @@ Kakavand S, Strohmeyer C, Schlotter M.
 Gardner J, Popovic Z, Schmidt L.
 \newblock Benchmarking Distribution Shift in Tabular Data with {TableShift}.
 \newblock In: Advances in Neural Information Processing Systems. vol.~36.
-  Neural Information Processing Systems Foundation; 2023. .
+  Neural Information Processing Systems Foundation; 2023.
 
 \bibitem[\protect\citeauthoryear{Anderson and Roth}{2018}]{anderson2018ember}
 Anderson HS, Roth P.
@@ -414,7 +413,7 @@ Anderson HS, Roth P.
 \bibitem[\protect\citeauthoryear{Moustafa and Slay}{2015}]{moustafa2015unsw}
 Moustafa N, Slay J.
 \newblock {UNSW-NB15}: A Comprehensive Data Set for Network Intrusion Detection
-  Systems ({UNSW-NB15} Network Data Set),.
+  Systems ({UNSW-NB15} Network Data Set).
 \newblock In: 2015 Military Communications and Information Systems Conference
   (MilCIS). IEEE; 2015. p. 1--6.
 
@@ -468,7 +467,7 @@ Roy O, Vetterli M.
 Cristianini N, Shawe-Taylor J, Elisseeff A, Kandola J.
 \newblock On Kernel-Target Alignment.
 \newblock In: Advances in Neural Information Processing Systems (NeurIPS).
-  vol.~14. Neural Information Processing Systems Foundation; 2001. .
+  vol.~14. Neural Information Processing Systems Foundation; 2001.
 
 \bibitem[\protect\citeauthoryear{Cortes
   et~al.}{2012}]{cortes2012centeredalignment}
@@ -500,7 +499,8 @@ Cortes C, Mohri M, Rostamizadeh A.
   Repository}}{2014}]{uci2014diabetes}
 {UCI Machine Learning Repository}. Diabetes 130-{US} Hospitals for Years
   1999--2008.
-\newblock Available from:
+\newblock Accessed 2 August 2026.
+\newblock
   \url{https://archive.ics.uci.edu/dataset/296/diabetes-130-us-hospitals-for-years-1999-2008}.
 
 \bibitem[\protect\citeauthoryear{{United States Department of

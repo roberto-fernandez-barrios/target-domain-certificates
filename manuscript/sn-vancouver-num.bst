@@ -1679,8 +1679,12 @@ FUNCTION {article}
   "journal" bibinfo.check
   "journal" output.check
   format.journal.date "year" output.check
-  add.semicolon
-  format.vol.num.pages output
+  volume empty$ number empty$ and pages empty$ and  %% local edit 2026-09-06: no stray ";." when volume, number, and pages are empty
+    'skip$
+    { add.semicolon
+      format.vol.num.pages output
+    }
+  if$
   new.block
   format.note output
   format.ddoi output 
@@ -1836,9 +1840,13 @@ FUNCTION {inproceedings}
     }
   if$
   format.date "year" output.check
-  date.block
-  add.blank
-  format.pages "pages" output.check
+  pages empty$  %% local edit 2026-09-06: no stray ". ." when pages is empty
+    'skip$
+    { date.block
+      add.blank
+      format.pages "pages" output.check
+    }
+  if$
   new.block
   format.note output
   output.web.refs  % urlbst
